@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Archive of UK news charts from Tagtaly. Browse historical data visualizations.">
+    <title>Archive - Tagtaly</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🏷️ Tagtaly</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="archive.html" class="active">Archive</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="archive-page">
+        <section class="page-header">
+            <h2>Chart Archive</h2>
+            <p>Every chart we've published, searchable and downloadable.</p>
+        </section>
+
+        <!-- Filter Controls -->
+        <section class="filters">
+            <div class="filter-group">
+                <label for="topic-filter">Topic:</label>
+                <select id="topic-filter">
+                    <option value="all">All Topics</option>
+                    <option value="politics">Politics</option>
+                    <option value="health">Health</option>
+                    <option value="economy">Economy</option>
+                    <option value="crime">Crime</option>
+                    <option value="energy">Energy</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="type-filter">Chart Type:</label>
+                <select id="type-filter">
+                    <option value="all">All Types</option>
+                    <option value="surge">Surge Alerts</option>
+                    <option value="political">Political Scorecard</option>
+                    <option value="record">Record Alerts</option>
+                    <option value="bias">Media Bias</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="date-filter">Date:</label>
+                <input type="month" id="date-filter">
+            </div>
+
+            <button class="btn btn-secondary" onclick="resetFilters()">Reset</button>
+        </section>
+
+        <!-- Archive Grid -->
+        <section class="archive-grid">
+            <div class="chart-archive-card">
+                <div class="chart-date">October 8, 2025</div>
+                <div class="chart-preview">
+                    <img src="../uk_news_charts_2025-10-08.png" alt="UK News Chart - October 8, 2025">
+                </div>
+                <div class="chart-info">
+                    <h4>UK News Dashboard</h4>
+                    <div class="chart-meta">
+                        <span class="badge">Politics</span>
+                        <span class="badge">Analytics</span>
+                    </div>
+                    <div class="chart-actions">
+                        <a href="../uk_news_charts_2025-10-08.png" download class="btn-small">Download</a>
+                        <a href="../uk_news_charts_2025-10-08.png" target="_blank" class="btn-small">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Placeholder cards for future charts -->
+            <div class="chart-archive-card placeholder">
+                <div class="chart-date">Coming Soon</div>
+                <div class="chart-preview chart-placeholder">
+                    <p>📊</p>
+                    <p class="placeholder-text">More charts coming daily</p>
+                </div>
+                <div class="chart-info">
+                    <h4>Next Update: Tomorrow</h4>
+                    <p class="placeholder-subtext">Pipeline runs at 7 AM UTC</p>
+                </div>
+            </div>
+
+            <div class="chart-archive-card placeholder">
+                <div class="chart-date">Coming Soon</div>
+                <div class="chart-preview chart-placeholder">
+                    <p>📈</p>
+                    <p class="placeholder-text">Archive grows daily</p>
+                </div>
+                <div class="chart-info">
+                    <h4>Building History</h4>
+                    <p class="placeholder-subtext">Check back for more</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="archive-stats">
+            <h3>Archive Statistics</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">231</div>
+                    <div class="stat-label">Articles Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Charts Published</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">News Sources</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9</div>
+                    <div class="stat-label">Topics Tracked</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Tagtaly. News that matters. Data that shows it.</p>
+            <div class="footer-links">
+                <a href="https://twitter.com/tagtaly" target="_blank">Twitter</a>
+                <a href="https://github.com/Mxgrig/Tagtaly" target="_blank">GitHub</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        function resetFilters() {
+            document.getElementById('topic-filter').value = 'all';
+            document.getElementById('type-filter').value = 'all';
+            document.getElementById('date-filter').value = '';
+        }
+    </script>
+</body>
+</html>

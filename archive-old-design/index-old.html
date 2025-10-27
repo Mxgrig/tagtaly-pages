@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tagtaly turns UK and US news into viral-ready intelligence. Track the surge, sentiment, and sources in one dashboard.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>Tagtaly — News That Matters. Data That Shows It.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <div class="brand">
+                <img src="assets/taglogo.png" alt="Tagtaly logo" class="brand-logo">
+                <div class="brand-text">
+                    <span class="brand-title">Tagtaly</span>
+                    <span class="brand-tagline">Automated UK &amp; US news intelligence</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Dashboard</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="about.html">About</a></li>
+                            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero--split">
+            <div class="hero-content">
+                <span class="hero-eyebrow">Daily intelligence briefing</span>
+                <h1 class="hero-title">News That Matters.<br>Data That Shows It.</h1>
+                <p class="hero-subtitle">
+                    Tagtaly ingests national feeds, scores every headline with QWE and virality, and renders social-ready charts in minutes. This dashboard is the daily command centre.
+                </p>
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="run_tagtaly_pipeline.sh">Run Today&rsquo;s Pipeline</a>
+                    <a class="btn btn-secondary" href="index_interface.md">View Docs</a>
+                </div>
+                <div class="hero-statline">
+                    <div class="hero-stat">
+                        <span class="hero-stat-label">Last updated</span>
+                        <span class="hero-stat-value" data-stat="updated-time">—</span>
+                        <span class="hero-stat-unit">UTC</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-label">Articles analysed</span>
+                        <span class="hero-stat-value" data-stat="total-articles">—</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-label">Active sources</span>
+                        <span class="hero-stat-value" data-stat="total-sources">—</span>
+                    </div>
+                </div>
+            </div>
+            <aside class="hero-panel">
+                <div class="hero-card hero-card--primary">
+                    <span class="hero-card-label">Top topic today</span>
+                    <h3 class="hero-card-title" data-stat="top-topic-name">—</h3>
+                    <dl class="hero-card-metrics">
+                        <div class="hero-card-metric">
+                            <dt>Articles</dt>
+                            <dd data-stat="top-topic-count">—</dd>
+                        </div>
+                        <div class="hero-card-metric">
+                            <dt>Share of coverage</dt>
+                            <dd data-stat="top-topic-share" data-format="percent1">—</dd>
+                        </div>
+                    </dl>
+                    <p class="hero-card-note">
+                        Snapshotted automatically from the latest pipeline run so editors can brief the room without leaving this page.
+                    </p>
+                </div>
+                <div class="hero-card hero-card--secondary">
+                    <span class="hero-card-label">Pipeline checklist</span>
+                    <ul class="hero-card-list">
+                        <li>Commit open changes before executing automation.</li>
+                        <li>Verify credentials in <code>.env</code> match staging.</li>
+                        <li>Post the status update in #tagtaly-ops.</li>
+                    </ul>
+                    <p class="hero-card-note">
+                        Mirroring shadcn&rsquo;s dialog pattern, this gate keeps the run safe for everyone downstream.
+                    </p>
+                </div>
+            </aside>
+        </section>
+
+        <section class="section-block metrics-board" aria-label="Today at a glance">
+            <div class="update-flag" data-update-flag>Charts refreshing…</div>
+            <div class="section-block-header">
+                <h2>How the news is changing?</h2>
+                <p>The latest run, reframed in shadcn-style cards so the stand-up can start with what changed.</p>
+            </div>
+            <div class="metrics-grid">
+                <article class="metric-card metric-card--accent">
+                    <header>
+                        <span class="metric-eyebrow">Production</span>
+                        <h3>Total Output</h3>
+                    </header>
+                    <div class="metric-value" data-stat="total-articles">—</div>
+                    <p class="metric-footnote">Across <span data-stat="total-sources">—</span> newsrooms</p>
+                </article>
+                <article class="metric-card">
+                    <header>
+                        <span class="metric-eyebrow">Distribution</span>
+                        <h3>Charts Ready</h3>
+                    </header>
+                    <div class="metric-value" data-stat="daily-charts">—</div>
+                    <p class="metric-footnote">Instagram-ready assets from this morning&rsquo;s batch</p>
+                </article>
+                <article class="metric-card">
+                    <header>
+                        <span class="metric-eyebrow">UK Lens</span>
+                        <h3>Coverage</h3>
+                    </header>
+                    <div class="metric-split">
+                        <div>
+                            <span class="metric-label">Articles</span>
+                            <span class="metric-number" data-stat="uk-articles">—</span>
+                        </div>
+                        <div>
+                            <span class="metric-label">Sources</span>
+                            <span class="metric-number" data-stat="uk-sources">—</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="metric-card">
+                    <header>
+                        <span class="metric-eyebrow">US Lens</span>
+                        <h3>Coverage</h3>
+                    </header>
+                    <div class="metric-split">
+                        <div>
+                            <span class="metric-label">Articles</span>
+                            <span class="metric-number" data-stat="us-articles">—</span>
+                        </div>
+                        <div>
+                            <span class="metric-label">Sources</span>
+                            <span class="metric-number" data-stat="us-sources">—</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="topic-meter">
+                <div class="topic-meter-header">
+                    <span class="metric-eyebrow">Momentum</span>
+                    <span class="topic-meter-name" data-stat="top-topic-name">—</span>
+                </div>
+                <div class="topic-meter-progress" aria-hidden="true">
+                    <div class="topic-meter-bar" data-topic-share-bar style="width: 0%;"></div>
+                </div>
+                <div class="topic-meter-meta">
+                    <span><strong data-stat="top-topic-count">—</strong> articles</span>
+                    <span><strong data-stat="top-topic-share" data-format="percent1">—</strong> of total coverage</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block insight-board" id="signals">
+            <div class="section-block-header">
+                <h2>Signals Worth Surfacing</h2>
+                <p>Automation converts the firehose into four shadcn-style insight cards so producers know where to lean in.</p>
+            </div>
+            <div class="insight-grid insight-grid--elevated">
+                <article class="insight-card">
+                    <span class="insight-eyebrow">Runaway Story</span>
+                    <h3>Surge Monitor</h3>
+                    <p data-stat="surge-summary">Tracking today&rsquo;s surge…</p>
+                </article>
+                <article class="insight-card">
+                    <span class="insight-eyebrow">Publishing Rhythm</span>
+                    <h3>Cadence Watch</h3>
+                    <p data-stat="publishing-summary">Monitoring newsroom cadence…</p>
+                </article>
+                <article class="insight-card">
+                    <span class="insight-eyebrow">Mood Shift</span>
+                    <h3>Sentiment Line</h3>
+                    <p data-stat="timeline-summary">Watching sentiment trend…</p>
+                </article>
+                <article class="insight-card">
+                    <span class="insight-eyebrow">Outlet To Watch</span>
+                    <h3>Lead Publisher</h3>
+                    <p data-stat="top-source-summary">Spotlighting today&rsquo;s most prolific publisher…</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="react-island section-block">
+            <div class="section-block-header">
+                <h2>Headline Heatmap</h2>
+                <p>
+                    Explore how today&rsquo;s coverage splits across Tagtaly categories.
+                    Pick a lane to see the most recent headlines, their virality, and which
+                    newsrooms are pushing them hardest.
+                </p>
+            </div>
+            <div id="react-article-explorer" class="react-island-root" data-react-island>
+                <div class="react-island-loading">Loading interactive view…</div>
+            </div>
+        </section>
+
+        <section class="section-block" aria-label="Live newsroom feed">
+            <div class="section-block-header">
+                <span class="metric-eyebrow">Live Wire</span>
+                <h2>Real-Time RSS Pulse</h2>
+                <p>Stories pushed via WebSub — refreshed the moment publishers hit publish.</p>
+            </div>
+            <div class="live-feed">
+                <div class="live-feed__header">
+                    <span class="live-feed__title">Latest Headlines</span>
+                    <span class="live-feed__status" data-live-status>Connecting…</span>
+                </div>
+                <ul class="live-feed__list" data-live-feed>
+                    <li class="live-feed__item">
+                        <div class="live-feed__meta">
+                            <span class="live-feed__time">—</span>
+                            <span class="live-feed__source">Waiting for feed</span>
+                        </div>
+                        <span class="live-feed__headline">Live updates will land here once the RSS worker is configured.</span>
+                        <p class="live-feed__summary">Finalize the Cloudflare Worker deployment and set <code>window.TAGTALY_FEED_URL</code> to bring this stream online.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="dashboard-wrapper section-block">
+            <div class="dashboard-header">
+                <span class="metric-eyebrow">Deep Dive</span>
+                <h2>Interactive News Intelligence</h2>
+                <div class="meta-pill">Powered by Tagtaly 2.0</div>
+            </div>
+            <p class="dashboard-subtitle">
+                Every chart below is generated live from the latest pipeline run: surging topics, sentiment splits, QWE breakdowns, source bias, and more. Click any card to inspect the data or download the PNG + caption bundle.
+            </p>
+            <div class="dashboard-section"></div>
+        </section>
+
+        <section class="section-block cta-panel">
+            <div class="cta-grid">
+                <div class="cta-card cta-card--primary">
+                    <span class="cta-eyebrow">Stay In The Loop</span>
+                    <h3>Get the Charts Delivered</h3>
+                    <p>Subscribe to daily drops, send the charts to Slack, or follow <strong>@tagtaly</strong> to stay ahead of the news cycle.</p>
+                    <a class="btn btn-primary" href="https://twitter.com/tagtaly" target="_blank" rel="noreferrer">Follow @tagtaly</a>
+                </div>
+                <div class="cta-card">
+                    <span class="cta-eyebrow">Go Hands-On</span>
+                    <h3>Run the Pipeline Yourself</h3>
+                    <p>Clone the repo, install requirements, and schedule the run with GitHub Actions or CRON. Everything you need lives in <code>src/</code> and <code>docs/assets/data/</code>.</p>
+                    <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noreferrer">Open GitHub Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-meta">
+                <span>Last pipeline update: <span data-stat="updated-time">—</span> UTC</span>
+                <span>Articles processed: <span data-stat="total-articles">—</span></span>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="archive.html">Archive</a>
+                <a href="index_interface.md">Interface Blueprint</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="assets/js/react-island.js"></script>
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script>
+        window.TAGTALY_FEED_URL = window.TAGTALY_FEED_URL || 'https://tagtaly-rss-worker.example.workers.dev';
+    </script>
+    <script src="assets/js/live-feed.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Labor coverage turned more negative this week",
+  "type": "gauges",
+  "chart_type": "sentiment_alternate",
+  "data": [
+    {
+      "topic": "Corporate Drama",
+      "shift": 0.254826521517698,
+      "emoji": "\ud83d\udcc8"
+    },
+    {
+      "topic": "Cost of Living",
+      "shift": -0.21783549783549783,
+      "emoji": "\ud83d\udcc9"
+    },
+    {
+      "topic": "Entertainment",
+      "shift": 0.12857142857142856,
+      "emoji": "\ud83d\udcc8"
+    },
+    {
+      "topic": "Gun Control",
+      "shift": 0.186437037037037,
+      "emoji": "\ud83d\udcc8"
+    },
+    {
+      "topic": "Immigration",
+      "shift": -0.13106782106782108,
+      "emoji": "\ud83d\udcc9"
+    }
+  ],
+  "virality_score": 11.277777777777779
+}

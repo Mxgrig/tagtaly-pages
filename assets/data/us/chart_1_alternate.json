@@ -1,0 +1,33 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Sports news UP 500% this week",
+  "type": "table",
+  "chart_type": "surge_alert_alternate",
+  "data": [
+    {
+      "topic": "Corporate Drama",
+      "change": -23.52941176470588,
+      "direction": "\u2193"
+    },
+    {
+      "topic": "Cost of Living",
+      "change": -37.5,
+      "direction": "\u2193"
+    },
+    {
+      "topic": "Education",
+      "change": 0.0,
+      "direction": "\u2193"
+    },
+    {
+      "topic": "Entertainment",
+      "change": -78.57142857142857,
+      "direction": "\u2193"
+    },
+    {
+      "topic": "Food & Cooking",
+      "change": 200.0,
+      "direction": "\u2191"
+    }
+  ],
+  "virality_score": 20
+}

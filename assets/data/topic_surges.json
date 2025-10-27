@@ -1,0 +1,95 @@
+{
+  "date": "2025-10-24",
+  "surges": [
+    {
+      "topic": "Tech",
+      "today": 173,
+      "yesterday": 0,
+      "change_pct": 17300.0
+    },
+    {
+      "topic": "Other",
+      "today": 103,
+      "yesterday": 0,
+      "change_pct": 10300.0
+    },
+    {
+      "topic": "International",
+      "today": 15,
+      "yesterday": 0,
+      "change_pct": 1500.0
+    },
+    {
+      "topic": "Cost of Living",
+      "today": 12,
+      "yesterday": 0,
+      "change_pct": 1200.0
+    },
+    {
+      "topic": "Corporate Drama",
+      "today": 11,
+      "yesterday": 0,
+      "change_pct": 1100.0
+    },
+    {
+      "topic": "US Politics",
+      "today": 9,
+      "yesterday": 0,
+      "change_pct": 900.0
+    },
+    {
+      "topic": "Science",
+      "today": 5,
+      "yesterday": 0,
+      "change_pct": 500.0
+    },
+    {
+      "topic": "Labor",
+      "today": 4,
+      "yesterday": 0,
+      "change_pct": 400.0
+    },
+    {
+      "topic": "UK Politics",
+      "today": 3,
+      "yesterday": 0,
+      "change_pct": 300.0
+    },
+    {
+      "topic": "Gun Control",
+      "today": 2,
+      "yesterday": 0,
+      "change_pct": 200.0
+    },
+    {
+      "topic": "Entertainment",
+      "today": 1,
+      "yesterday": 0,
+      "change_pct": 100.0
+    },
+    {
+      "topic": "NHS",
+      "today": 1,
+      "yesterday": 0,
+      "change_pct": 100.0
+    },
+    {
+      "topic": "Royal Family",
+      "today": 1,
+      "yesterday": 0,
+      "change_pct": 100.0
+    },
+    {
+      "topic": "Tech Entertainment",
+      "today": 1,
+      "yesterday": 0,
+      "change_pct": 100.0
+    },
+    {
+      "topic": "US Healthcare",
+      "today": 1,
+      "yesterday": 0,
+      "change_pct": 100.0
+    }
+  ]
+}

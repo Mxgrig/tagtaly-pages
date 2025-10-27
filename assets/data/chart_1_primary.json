@@ -1,0 +1,38 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 What United States outlets are REALLY covering this week",
+  "type": "media_bars",
+  "chart_type": "media_bias_primary",
+  "data": [
+    {
+      "source": "CNN",
+      "topic": "Tech",
+      "count": 27
+    },
+    {
+      "source": "CNN Entertainment",
+      "topic": "Other",
+      "count": 14
+    },
+    {
+      "source": "E! News",
+      "topic": "Tech",
+      "count": 21
+    },
+    {
+      "source": "Fox News",
+      "topic": "Tech",
+      "count": 35
+    },
+    {
+      "source": "NPR",
+      "topic": "Tech",
+      "count": 11
+    },
+    {
+      "source": "NPR Food",
+      "topic": "Other",
+      "count": 8
+    }
+  ],
+  "virality_score": 8
+}

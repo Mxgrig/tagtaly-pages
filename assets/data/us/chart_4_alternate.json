@@ -1,0 +1,44 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 What United States outlets are REALLY covering this week",
+  "type": "bias_indicator",
+  "chart_type": "media_bias_alternate",
+  "data": [
+    {
+      "source": "E! News",
+      "focus": "Tech",
+      "intensity": 0.4,
+      "bias_color": "neutral"
+    },
+    {
+      "source": "Fox News",
+      "focus": "Tech",
+      "intensity": 3.6,
+      "bias_color": "positive"
+    },
+    {
+      "source": "NPR",
+      "focus": "Other",
+      "intensity": 1.2,
+      "bias_color": "positive"
+    },
+    {
+      "source": "NPR Food",
+      "focus": "Other",
+      "intensity": 0.2,
+      "bias_color": "low"
+    },
+    {
+      "source": "NY Times",
+      "focus": "Tech",
+      "intensity": 3.6,
+      "bias_color": "positive"
+    },
+    {
+      "source": "NY Times Style",
+      "focus": "Other",
+      "intensity": 1.8,
+      "bias_color": "positive"
+    }
+  ],
+  "virality_score": 8
+}

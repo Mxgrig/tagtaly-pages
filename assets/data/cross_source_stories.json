@@ -1,0 +1,142 @@
+{
+  "stories": [
+    {
+      "headline": "After 'No Kings' protests, where does Democratic opposition go next?",
+      "sources": [
+        "BBC",
+        "Fox News",
+        "NY Times"
+      ],
+      "source_count": 3,
+      "countries": [
+        "UK",
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "lifestyle"
+    },
+    {
+      "headline": "Sam Rivers, Limp Bizkit Bassist, Dead at 48",
+      "sources": [
+        "NPR",
+        "NY Times",
+        "E! News"
+      ],
+      "source_count": 3,
+      "countries": [
+        "US"
+      ],
+      "topic": "Tech",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "Prince William to Ban Prince Andrew From 'All Elements of Royal Life': Report",
+      "sources": [
+        "Guardian",
+        "Sky News",
+        "US Magazine"
+      ],
+      "source_count": 3,
+      "countries": [
+        "UK",
+        "US"
+      ],
+      "topic": "Royal Family",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "'Brazen' Louvre thieves made targeted heist, treasures could be melted down: expert",
+      "sources": [
+        "Guardian",
+        "Fox News"
+      ],
+      "source_count": 2,
+      "countries": [
+        "UK",
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "lifestyle"
+    },
+    {
+      "headline": "Bereaved families call for inquiry into UK failure to act on pro-suicide forum",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_count": 2,
+      "countries": [
+        "UK"
+      ],
+      "topic": "Tech",
+      "qwe_category": "lifestyle"
+    },
+    {
+      "headline": "England hold nerve for most significant win of Edwards era",
+      "sources": [
+        "Guardian",
+        "BBC"
+      ],
+      "source_count": 2,
+      "countries": [
+        "UK"
+      ],
+      "topic": "Other",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "Brandy Breaks Silence After Abruptly Leaving Stage During Chicago Concert",
+      "sources": [
+        "Fox News",
+        "US Magazine"
+      ],
+      "source_count": 2,
+      "countries": [
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "Sharon Osbourne Mourns Dog Elvis Months After Husband Ozzy Osbourne's Death",
+      "sources": [
+        "Fox News",
+        "US Magazine"
+      ],
+      "source_count": 2,
+      "countries": [
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "Former New York Yankees Star Jesus Montero Dead at 35 After Motorcycle Crash",
+      "sources": [
+        "Sky News",
+        "US Magazine"
+      ],
+      "source_count": 2,
+      "countries": [
+        "UK",
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "entertainment"
+    },
+    {
+      "headline": "Rodrigo Paz Pereira wins Bolivia's presidential runoff marking a new shift to the right",
+      "sources": [
+        "Guardian",
+        "NPR"
+      ],
+      "source_count": 2,
+      "countries": [
+        "UK",
+        "US"
+      ],
+      "topic": "Other",
+      "qwe_category": "lifestyle"
+    }
+  ]
+}

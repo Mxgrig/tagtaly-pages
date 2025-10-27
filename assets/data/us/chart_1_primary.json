@@ -1,0 +1,28 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Sports news UP 500% this week",
+  "type": "bar",
+  "chart_type": "surge_alert_primary",
+  "data": [
+    [
+      "Corporate Drama",
+      -23.52941176470588
+    ],
+    [
+      "Cost of Living",
+      -37.5
+    ],
+    [
+      "Education",
+      0.0
+    ],
+    [
+      "Entertainment",
+      -78.57142857142857
+    ],
+    [
+      "Food & Cooking",
+      200.0
+    ]
+  ],
+  "virality_score": 20
+}

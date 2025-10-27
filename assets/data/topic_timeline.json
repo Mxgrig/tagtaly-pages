@@ -1,0 +1,227 @@
+{
+  "topics": [
+    "Brexit",
+    "Corporate Drama",
+    "Cost of Living",
+    "Entertainment",
+    "International",
+    "Labor",
+    "Royal Family",
+    "Science",
+    "Tech",
+    "UK Politics",
+    "US Politics"
+  ],
+  "heatmap_data": [
+    {
+      "hour": 21,
+      "topic_idx": 8,
+      "count": 6
+    },
+    {
+      "hour": 2,
+      "topic_idx": 4,
+      "count": 1
+    },
+    {
+      "hour": 4,
+      "topic_idx": 0,
+      "count": 1
+    },
+    {
+      "hour": 23,
+      "topic_idx": 3,
+      "count": 1
+    },
+    {
+      "hour": 5,
+      "topic_idx": 8,
+      "count": 10
+    },
+    {
+      "hour": 19,
+      "topic_idx": 8,
+      "count": 14
+    },
+    {
+      "hour": 4,
+      "topic_idx": 8,
+      "count": 8
+    },
+    {
+      "hour": 3,
+      "topic_idx": 8,
+      "count": 3
+    },
+    {
+      "hour": 0,
+      "topic_idx": 4,
+      "count": 2
+    },
+    {
+      "hour": 22,
+      "topic_idx": 4,
+      "count": 1
+    },
+    {
+      "hour": 23,
+      "topic_idx": 8,
+      "count": 9
+    },
+    {
+      "hour": 1,
+      "topic_idx": 8,
+      "count": 2
+    },
+    {
+      "hour": 5,
+      "topic_idx": 5,
+      "count": 1
+    },
+    {
+      "hour": 4,
+      "topic_idx": 4,
+      "count": 2
+    },
+    {
+      "hour": 0,
+      "topic_idx": 8,
+      "count": 2
+    },
+    {
+      "hour": 21,
+      "topic_idx": 4,
+      "count": 2
+    },
+    {
+      "hour": 22,
+      "topic_idx": 8,
+      "count": 4
+    },
+    {
+      "hour": 20,
+      "topic_idx": 8,
+      "count": 9
+    },
+    {
+      "hour": 2,
+      "topic_idx": 8,
+      "count": 4
+    },
+    {
+      "hour": 17,
+      "topic_idx": 8,
+      "count": 6
+    },
+    {
+      "hour": 17,
+      "topic_idx": 1,
+      "count": 1
+    },
+    {
+      "hour": 16,
+      "topic_idx": 8,
+      "count": 8
+    },
+    {
+      "hour": 15,
+      "topic_idx": 8,
+      "count": 5
+    },
+    {
+      "hour": 18,
+      "topic_idx": 8,
+      "count": 4
+    },
+    {
+      "hour": 21,
+      "topic_idx": 2,
+      "count": 1
+    },
+    {
+      "hour": 17,
+      "topic_idx": 4,
+      "count": 1
+    },
+    {
+      "hour": 0,
+      "topic_idx": 9,
+      "count": 1
+    },
+    {
+      "hour": 18,
+      "topic_idx": 2,
+      "count": 1
+    },
+    {
+      "hour": 13,
+      "topic_idx": 7,
+      "count": 1
+    },
+    {
+      "hour": 23,
+      "topic_idx": 9,
+      "count": 1
+    },
+    {
+      "hour": 19,
+      "topic_idx": 1,
+      "count": 1
+    },
+    {
+      "hour": 21,
+      "topic_idx": 10,
+      "count": 1
+    },
+    {
+      "hour": 1,
+      "topic_idx": 2,
+      "count": 1
+    },
+    {
+      "hour": 7,
+      "topic_idx": 8,
+      "count": 1
+    },
+    {
+      "hour": 17,
+      "topic_idx": 3,
+      "count": 1
+    },
+    {
+      "hour": 18,
+      "topic_idx": 4,
+      "count": 1
+    },
+    {
+      "hour": 14,
+      "topic_idx": 8,
+      "count": 1
+    },
+    {
+      "hour": 20,
+      "topic_idx": 7,
+      "count": 2
+    },
+    {
+      "hour": 18,
+      "topic_idx": 7,
+      "count": 1
+    },
+    {
+      "hour": 17,
+      "topic_idx": 7,
+      "count": 1
+    },
+    {
+      "hour": 19,
+      "topic_idx": 6,
+      "count": 1
+    },
+    {
+      "hour": 18,
+      "topic_idx": 6,
+      "count": 1
+    }
+  ]
+}

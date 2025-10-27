@@ -1,0 +1,14 @@
+{
+  "generated_at": "2025-10-24T16:02:06.056815",
+  "banner": {
+    "url": "https://via.placeholder.com/1200x400?text=Tagtaly+News",
+    "source": "Placeholder",
+    "title": "News Dashboard",
+    "attribution": "\ud83d\udcf7 Placeholder image"
+  },
+  "topics": {},
+  "api_status": {
+    "nytimes": "missing",
+    "pexels": "missing"
+  }
+}

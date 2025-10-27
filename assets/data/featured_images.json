@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-20",
+  "topic": "Tech",
+  "images": {
+    "banner": {
+      "source": "unsplash",
+      "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1600&h=500&fit=crop",
+      "photographer": "Markus Spiske",
+      "photographer_url": "https://unsplash.com/@markusspiske",
+      "topic": "Tech",
+      "fetched_at": "2025-10-20T05:54:07.128823",
+      "description": "Hero banner - tech workspace landscape"
+    },
+    "article": {
+      "source": "unsplash",
+      "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+      "photographer": "Campaign Creators",
+      "photographer_url": "https://unsplash.com/@campaign_creators",
+      "topic": "Tech",
+      "fetched_at": "2025-10-20T05:54:07.128823",
+      "description": "Article image - business team analysis"
+    },
+    "nytimes": null,
+    "pexels": null
+  }
+}

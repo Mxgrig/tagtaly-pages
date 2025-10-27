@@ -1,0 +1,69 @@
+{
+  "updated_at": "2025-10-20T05:53:54Z",
+  "days": 2,
+  "timeline": [
+    {
+      "date": "2025-10-20",
+      "total_articles": 172,
+      "avg_viral_score": 10.6,
+      "sentiment_breakdown": {
+        "positive": 49,
+        "neutral": 92,
+        "negative": 31
+      },
+      "topic_breakdown": {
+        "Brexit": 1,
+        "Corporate Drama": 2,
+        "Cost of Living": 3,
+        "Entertainment": 2,
+        "International": 10,
+        "Labor": 1,
+        "Other": 47,
+        "Royal Family": 2,
+        "Science": 5,
+        "Tech": 96,
+        "UK Politics": 2,
+        "US Politics": 1
+      },
+      "category_breakdown": {
+        "money": 61,
+        "quality": 42,
+        "stories": 69
+      }
+    },
+    {
+      "date": "2025-10-19",
+      "total_articles": 1189,
+      "avg_viral_score": 12.6,
+      "sentiment_breakdown": {
+        "positive": 280,
+        "neutral": 738,
+        "negative": 171
+      },
+      "topic_breakdown": {
+        "Brexit": 1,
+        "Climate": 3,
+        "Corporate Drama": 25,
+        "Cost of Living": 18,
+        "Entertainment": 15,
+        "Gun Control": 6,
+        "Immigration": 5,
+        "International": 42,
+        "Labor": 5,
+        "NHS": 4,
+        "Other": 579,
+        "Royal Family": 5,
+        "Science": 26,
+        "Tech": 437,
+        "UK Politics": 2,
+        "US Healthcare": 8,
+        "US Politics": 8
+      },
+      "category_breakdown": {
+        "money": 477,
+        "quality": 291,
+        "stories": 421
+      }
+    }
+  ]
+}

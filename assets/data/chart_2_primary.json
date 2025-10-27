@@ -1,0 +1,40 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Donald Trump mentioned 2.8x more than Andrew Tate this week",
+  "type": "horizontal_bar",
+  "chart_type": "people_race_primary",
+  "data": [
+    {
+      "name": "Donald Trump",
+      "value": 96
+    },
+    {
+      "name": "Andrew Tate",
+      "value": 34
+    },
+    {
+      "name": "Joe Biden",
+      "value": 7
+    },
+    {
+      "name": "Jeff Bezos",
+      "value": 6
+    },
+    {
+      "name": "Prince Harry",
+      "value": 5
+    },
+    {
+      "name": "Taylor Swift",
+      "value": 5
+    },
+    {
+      "name": "Kim Kardashian",
+      "value": 4
+    },
+    {
+      "name": "Elon Musk",
+      "value": 3
+    }
+  ],
+  "virality_score": 5.647058823529412
+}

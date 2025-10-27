@@ -1,0 +1,74 @@
+{
+  "top_10": [
+    {
+      "source": "US Magazine",
+      "positive": 9,
+      "neutral": 9,
+      "negative": 1,
+      "mood_score": 42
+    },
+    {
+      "source": "Independent",
+      "positive": 2,
+      "neutral": 5,
+      "negative": 0,
+      "mood_score": 29
+    },
+    {
+      "source": "Fox News",
+      "positive": 8,
+      "neutral": 13,
+      "negative": 4,
+      "mood_score": 16
+    },
+    {
+      "source": "Guardian",
+      "positive": 20,
+      "neutral": 15,
+      "negative": 14,
+      "mood_score": 12
+    },
+    {
+      "source": "Sky News",
+      "positive": 2,
+      "neutral": 5,
+      "negative": 1,
+      "mood_score": 12
+    },
+    {
+      "source": "BBC",
+      "positive": 5,
+      "neutral": 22,
+      "negative": 2,
+      "mood_score": 10
+    },
+    {
+      "source": "NY Times",
+      "positive": 1,
+      "neutral": 11,
+      "negative": 5,
+      "mood_score": -24
+    },
+    {
+      "source": "E! News",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 3,
+      "mood_score": -38
+    }
+  ],
+  "most_positive": {
+    "source": "US Magazine",
+    "positive": 9,
+    "neutral": 9,
+    "negative": 1,
+    "mood_score": 42
+  },
+  "most_negative": {
+    "source": "E! News",
+    "positive": 0,
+    "neutral": 5,
+    "negative": 3,
+    "mood_score": -38
+  }
+}

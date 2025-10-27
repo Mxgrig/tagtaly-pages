@@ -1,0 +1,455 @@
+{
+  "generated_at": "2025-10-15T07:18:18Z",
+  "charts": [
+    {
+      "id": "breaking_news_by_topic",
+      "title": "Breaking News By Topic",
+      "topic": "Highlights",
+      "type": "Highlights",
+      "tags": [
+        "Highlights",
+        "Highlights"
+      ],
+      "category": "dashboard",
+      "country": "breaking_news_by_topic.png",
+      "image": "charts/dashboard/breaking_news_by_topic.png",
+      "download": "charts/dashboard/breaking_news_by_topic.png",
+      "updated_at": "2025-10-15T07:12:35Z"
+    },
+    {
+      "id": "controversial_stories",
+      "title": "Controversial Stories",
+      "topic": "General",
+      "type": "Insights",
+      "tags": [
+        "General",
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "controversial_stories.png",
+      "image": "charts/dashboard/controversial_stories.png",
+      "download": "charts/dashboard/controversial_stories.png",
+      "updated_at": "2025-10-15T07:12:36Z"
+    },
+    {
+      "id": "cost_you_money",
+      "title": "Cost You Money",
+      "topic": "Money",
+      "type": "Insights",
+      "tags": [
+        "Money",
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "cost_you_money.png",
+      "image": "charts/dashboard/cost_you_money.png",
+      "download": "charts/dashboard/cost_you_money.png",
+      "updated_at": "2025-10-15T07:12:50Z"
+    },
+    {
+      "id": "country_split",
+      "title": "Country Split",
+      "topic": "General",
+      "type": "Insights",
+      "tags": [
+        "General",
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "country_split.png",
+      "image": "charts/dashboard/country_split.png",
+      "download": "charts/dashboard/country_split.png",
+      "updated_at": "2025-10-15T07:04:10Z"
+    },
+    {
+      "id": "coverage_intensity",
+      "title": "Coverage Intensity",
+      "topic": "Coverage",
+      "type": "Insights",
+      "tags": [
+        "Coverage",
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "coverage_intensity.png",
+      "image": "charts/dashboard/coverage_intensity.png",
+      "download": "charts/dashboard/coverage_intensity.png",
+      "updated_at": "2025-10-15T07:13:18Z"
+    },
+    {
+      "id": "impact_by_category",
+      "title": "Impact By Category",
+      "topic": "Money",
+      "type": "Impact",
+      "tags": [
+        "Money",
+        "Impact"
+      ],
+      "category": "dashboard",
+      "country": "impact_by_category.png",
+      "image": "charts/dashboard/impact_by_category.png",
+      "download": "charts/dashboard/impact_by_category.png",
+      "updated_at": "2025-10-15T07:12:51Z"
+    },
+    {
+      "id": "money_comparison",
+      "title": "Money Comparison",
+      "topic": "Money",
+      "type": "Insights",
+      "tags": [
+        "Money",
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "money_comparison.png",
+      "image": "charts/dashboard/money_comparison.png",
+      "download": "charts/dashboard/money_comparison.png",
+      "updated_at": "2025-10-09T15:06:41Z"
+    },
+    {
+      "id": "sentiment_analysis",
+      "title": "Sentiment Analysis",
+      "topic": "Sentiment",
+      "type": "Sentiment",
+      "tags": [
+        "Sentiment",
+        "Sentiment"
+      ],
+      "category": "dashboard",
+      "country": "sentiment_analysis.png",
+      "image": "charts/dashboard/sentiment_analysis.png",
+      "download": "charts/dashboard/sentiment_analysis.png",
+      "updated_at": "2025-10-15T07:04:10Z"
+    },
+    {
+      "id": "sentiment_heatmap",
+      "title": "Sentiment Heatmap",
+      "topic": "Sentiment",
+      "type": "Heatmap",
+      "tags": [
+        "Sentiment",
+        "Heatmap"
+      ],
+      "category": "dashboard",
+      "country": "sentiment_heatmap.png",
+      "image": "charts/dashboard/sentiment_heatmap.png",
+      "download": "charts/dashboard/sentiment_heatmap.png",
+      "updated_at": "2025-10-15T07:13:15Z"
+    },
+    {
+      "id": "source_comparison",
+      "title": "Source Comparison",
+      "topic": "Sources",
+      "type": "Sources",
+      "tags": [
+        "Sources",
+        "Sources"
+      ],
+      "category": "dashboard",
+      "country": "source_comparison.png",
+      "image": "charts/dashboard/source_comparison.png",
+      "download": "charts/dashboard/source_comparison.png",
+      "updated_at": "2025-10-15T07:04:11Z"
+    },
+    {
+      "id": "timeline_trend",
+      "title": "Timeline Trend",
+      "topic": "Timeline",
+      "type": "Trend",
+      "tags": [
+        "Timeline",
+        "Trend"
+      ],
+      "category": "dashboard",
+      "country": "timeline_trend.png",
+      "image": "charts/dashboard/timeline_trend.png",
+      "download": "charts/dashboard/timeline_trend.png",
+      "updated_at": "2025-10-15T07:04:14Z"
+    },
+    {
+      "id": "top_impact_stories",
+      "title": "Top Impact Stories",
+      "topic": "Money",
+      "type": "Impact",
+      "tags": [
+        "Money",
+        "Impact"
+      ],
+      "category": "dashboard",
+      "country": "top_impact_stories.png",
+      "image": "charts/dashboard/top_impact_stories.png",
+      "download": "charts/dashboard/top_impact_stories.png",
+      "updated_at": "2025-10-15T07:12:49Z"
+    },
+    {
+      "id": "top_viral_newsworthy",
+      "title": "Top News",
+      "topic": "Highlights",
+      "type": "Highlights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "dashboard",
+      "country": "top_viral_newsworthy.png",
+      "image": "charts/dashboard/top_viral_newsworthy.png",
+      "download": "charts/dashboard/top_viral_newsworthy.png",
+      "updated_at": "2025-10-15T07:04:00Z"
+    },
+    {
+      "id": "top_viral_stories",
+      "title": "Buzz Stories",
+      "topic": "Highlights",
+      "type": "Highlights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "dashboard",
+      "country": "top_viral_stories.png",
+      "image": "charts/dashboard/top_viral_stories.png",
+      "download": "charts/dashboard/top_viral_stories.png",
+      "updated_at": "2025-10-15T07:12:34Z"
+    },
+    {
+      "id": "topic_by_country",
+      "title": "Topic By Country",
+      "topic": "Highlights",
+      "type": "Highlights",
+      "tags": [
+        "Highlights",
+        "Highlights"
+      ],
+      "category": "dashboard",
+      "country": "topic_by_country.png",
+      "image": "charts/dashboard/topic_by_country.png",
+      "download": "charts/dashboard/topic_by_country.png",
+      "updated_at": "2025-10-15T07:04:13Z"
+    },
+    {
+      "id": "topic_distribution",
+      "title": "Topic Distribution",
+      "topic": "Highlights",
+      "type": "Distribution",
+      "tags": [
+        "Highlights",
+        "Distribution"
+      ],
+      "category": "dashboard",
+      "country": "topic_distribution.png",
+      "image": "charts/dashboard/topic_distribution.png",
+      "download": "charts/dashboard/topic_distribution.png",
+      "updated_at": "2025-10-15T07:04:09Z"
+    },
+    {
+      "id": "trending_topics",
+      "title": "Trending Topics",
+      "topic": "Trend",
+      "type": "Trend",
+      "tags": [
+        "Trend",
+        "Trend"
+      ],
+      "category": "dashboard",
+      "country": "trending_topics.png",
+      "image": "charts/dashboard/trending_topics.png",
+      "download": "charts/dashboard/trending_topics.png",
+      "updated_at": "2025-10-15T07:12:36Z"
+    },
+    {
+      "id": "uk_vs_us_topics",
+      "title": "Uk Vs Us Topics",
+      "topic": "Country Split",
+      "type": "Highlights",
+      "tags": [
+        "Country Split",
+        "Highlights"
+      ],
+      "category": "dashboard",
+      "country": "uk_vs_us_topics.png",
+      "image": "charts/dashboard/uk_vs_us_topics.png",
+      "download": "charts/dashboard/uk_vs_us_topics.png",
+      "updated_at": "2025-10-15T07:13:19Z"
+    },
+    {
+      "id": "viral_distribution",
+      "title": "News Share",
+      "topic": "Distribution",
+      "type": "Distribution",
+      "tags": [
+        "Distribution"
+      ],
+      "category": "dashboard",
+      "country": "viral_distribution.png",
+      "image": "charts/dashboard/viral_distribution.png",
+      "download": "charts/dashboard/viral_distribution.png",
+      "updated_at": "2025-10-15T07:13:17Z"
+    },
+    {
+      "id": "viral_factor_breakdown",
+      "title": "Engagement Drivers",
+      "topic": "Insights",
+      "type": "Distribution",
+      "tags": [
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "viral_factor_breakdown.png",
+      "image": "charts/dashboard/viral_factor_breakdown.png",
+      "download": "charts/dashboard/viral_factor_breakdown.png",
+      "updated_at": "2025-10-15T07:04:04Z"
+    },
+    {
+      "id": "what_drives_virality",
+      "title": "What Drives Engagement",
+      "topic": "Insights",
+      "type": "Insights",
+      "tags": [
+        "Insights"
+      ],
+      "category": "dashboard",
+      "country": "what_drives_virality.png",
+      "image": "charts/dashboard/what_drives_virality.png",
+      "download": "charts/dashboard/what_drives_virality.png",
+      "updated_at": "2025-10-15T07:04:02Z"
+    },
+    {
+      "id": "viral_2_RECORD_ALERT",
+      "title": "Record Alert",
+      "topic": "Highlights",
+      "type": "Insights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "global",
+      "country": "viral_2_RECORD_ALERT.png",
+      "image": "charts/global/viral_2_RECORD_ALERT.png",
+      "download": "charts/global/viral_2_RECORD_ALERT.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_4_MEDIA_BIAS",
+      "title": "Media Bias Spotlight",
+      "topic": "Sources",
+      "type": "Insights",
+      "tags": [
+        "Sources"
+      ],
+      "category": "global",
+      "country": "viral_4_MEDIA_BIAS.png",
+      "image": "charts/global/viral_4_MEDIA_BIAS.png",
+      "download": "charts/global/viral_4_MEDIA_BIAS.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_2_RECORD_ALERT",
+      "title": "Record Alert",
+      "topic": "Highlights",
+      "type": "Insights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "uk",
+      "country": "viral_2_RECORD_ALERT.png",
+      "image": "charts/uk/viral_2_RECORD_ALERT.png",
+      "download": "charts/uk/viral_2_RECORD_ALERT.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_3_MEDIA_BIAS",
+      "title": "Media Bias Spotlight",
+      "topic": "Sources",
+      "type": "Insights",
+      "tags": [
+        "Sources"
+      ],
+      "category": "uk",
+      "country": "viral_3_MEDIA_BIAS.png",
+      "image": "charts/uk/viral_3_MEDIA_BIAS.png",
+      "download": "charts/uk/viral_3_MEDIA_BIAS.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_1_MEDIA_BIAS",
+      "title": "Media Bias Spotlight",
+      "topic": "Sources",
+      "type": "Insights",
+      "tags": [
+        "Sources"
+      ],
+      "category": "us",
+      "country": "viral_1_MEDIA_BIAS.png",
+      "image": "charts/us/viral_1_MEDIA_BIAS.png",
+      "download": "charts/us/viral_1_MEDIA_BIAS.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_2_VIRAL_PEOPLE_SCORECARD",
+      "title": "Viral People Scorecard",
+      "topic": "People",
+      "type": "Insights",
+      "tags": [
+        "People"
+      ],
+      "category": "us",
+      "country": "viral_2_VIRAL_PEOPLE_SCORECARD.png",
+      "image": "charts/us/viral_2_VIRAL_PEOPLE_SCORECARD.png",
+      "download": "charts/us/viral_2_VIRAL_PEOPLE_SCORECARD.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_4_MEDIA_BIAS",
+      "title": "Media Bias Spotlight",
+      "topic": "Sources",
+      "type": "Insights",
+      "tags": [
+        "Sources"
+      ],
+      "category": "global",
+      "country": "viral_4_MEDIA_BIAS.png",
+      "image": "charts/global/viral_4_MEDIA_BIAS.png",
+      "download": "charts/global/viral_4_MEDIA_BIAS.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_2_RECORD_ALERT",
+      "title": "Record Alert",
+      "topic": "Highlights",
+      "type": "Insights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "global",
+      "country": "viral_2_RECORD_ALERT.png",
+      "image": "charts/global/viral_2_RECORD_ALERT.png",
+      "download": "charts/global/viral_2_RECORD_ALERT.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_3_MEDIA_BIAS",
+      "title": "Media Bias Spotlight",
+      "topic": "Sources",
+      "type": "Insights",
+      "tags": [
+        "Sources"
+      ],
+      "category": "uk",
+      "country": "viral_3_MEDIA_BIAS.png",
+      "image": "charts/uk/viral_3_MEDIA_BIAS.png",
+      "download": "charts/uk/viral_3_MEDIA_BIAS.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    },
+    {
+      "id": "viral_2_RECORD_ALERT",
+      "title": "Record Alert",
+      "topic": "Highlights",
+      "type": "Insights",
+      "tags": [
+        "Highlights"
+      ],
+      "category": "global",
+      "country": "viral_2_RECORD_ALERT.png",
+      "image": "charts/global/viral_2_RECORD_ALERT.png",
+      "download": "charts/global/viral_2_RECORD_ALERT.png",
+      "updated_at": "2025-10-15T07:04:15Z"
+    }
+  ]
+}

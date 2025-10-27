@@ -1,0 +1,40 @@
+{
+  "headline": "\ud83c\uddec\ud83c\udde7 Andrew Tate mentioned 3.5x more than Mark Zuckerberg this week",
+  "type": "horizontal_bar",
+  "chart_type": "people_race_primary",
+  "data": [
+    {
+      "name": "Andrew Tate",
+      "value": 42
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "value": 12
+    },
+    {
+      "name": "Keir Starmer",
+      "value": 10
+    },
+    {
+      "name": "Nigel Farage",
+      "value": 8
+    },
+    {
+      "name": "King Charles",
+      "value": 7
+    },
+    {
+      "name": "Prince Harry",
+      "value": 5
+    },
+    {
+      "name": "Elon Musk",
+      "value": 3
+    },
+    {
+      "name": "Jeff Bezos",
+      "value": 3
+    }
+  ],
+  "virality_score": 7.0
+}

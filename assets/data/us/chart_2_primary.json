@@ -1,0 +1,28 @@
+{
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Labor coverage turned more negative this week",
+  "type": "diverging_bar",
+  "chart_type": "sentiment_primary",
+  "data": [
+    {
+      "topic": "Corporate Drama",
+      "value": 0.254826521517698
+    },
+    {
+      "topic": "Cost of Living",
+      "value": -0.21783549783549783
+    },
+    {
+      "topic": "Entertainment",
+      "value": 0.12857142857142856
+    },
+    {
+      "topic": "Gun Control",
+      "value": 0.186437037037037
+    },
+    {
+      "topic": "Immigration",
+      "value": -0.13106782106782108
+    }
+  ],
+  "virality_score": 11.277777777777779
+}

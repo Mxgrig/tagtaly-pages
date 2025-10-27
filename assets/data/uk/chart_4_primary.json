@@ -1,0 +1,38 @@
+{
+  "headline": "\ud83c\uddec\ud83c\udde7 What United Kingdom outlets are REALLY covering this week",
+  "type": "media_bars",
+  "chart_type": "media_bias_primary",
+  "data": [
+    {
+      "source": "BBC",
+      "topic": "Other",
+      "count": 10
+    },
+    {
+      "source": "Guardian",
+      "topic": "Tech",
+      "count": 303
+    },
+    {
+      "source": "Guardian Life",
+      "topic": "Tech",
+      "count": 6
+    },
+    {
+      "source": "Independent",
+      "topic": "Tech",
+      "count": 42
+    },
+    {
+      "source": "Metro Lifestyle",
+      "topic": "Other",
+      "count": 48
+    },
+    {
+      "source": "Sky News",
+      "topic": "Tech",
+      "count": 11
+    }
+  ],
+  "virality_score": 8
+}

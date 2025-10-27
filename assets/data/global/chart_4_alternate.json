@@ -1,0 +1,44 @@
+{
+  "headline": "\ud83c\udf0d What Global outlets are REALLY covering this week",
+  "type": "bias_indicator",
+  "chart_type": "media_bias_alternate",
+  "data": [
+    {
+      "source": "BBC",
+      "focus": "Other",
+      "intensity": 1.0,
+      "bias_color": "positive"
+    },
+    {
+      "source": "E! News",
+      "focus": "Tech",
+      "intensity": 0.4,
+      "bias_color": "neutral"
+    },
+    {
+      "source": "Fox News",
+      "focus": "Tech",
+      "intensity": 3.6,
+      "bias_color": "positive"
+    },
+    {
+      "source": "Guardian",
+      "focus": "Tech",
+      "intensity": 30.3,
+      "bias_color": "positive"
+    },
+    {
+      "source": "Guardian Life",
+      "focus": "Tech",
+      "intensity": 0.6,
+      "bias_color": "positive"
+    },
+    {
+      "source": "Independent",
+      "focus": "Tech",
+      "intensity": 4.2,
+      "bias_color": "positive"
+    }
+  ],
+  "virality_score": 8
+}

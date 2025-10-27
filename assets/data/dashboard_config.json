@@ -1,0 +1,164 @@
+{
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "badge": "AT A GLANCE",
+      "badge_icon": "zap",
+      "title": "What You Need to Know Right Now",
+      "subtitle": "The big picture in 3 seconds - no reading required",
+      "charts": [
+        {
+          "id": "record-breakers-chart",
+          "title": "Dominant Topic",
+          "title_icon": "trending-up",
+          "description": "This one topic is dominating every news outlet right now",
+          "size": "large"
+        },
+        {
+          "id": "impact-meter-chart",
+          "title": "Where the Impact Lands Today",
+          "title_icon": "target",
+          "description": "See how Money, Health, and Stories split today's headlines",
+          "size": "large",
+          "height": "260px"
+        },
+        {
+          "id": "category-dominance-chart",
+          "title": "Category with the Most News",
+          "title_icon": "dollar-sign",
+          "description": "Which category dominated coverage today?",
+          "size": "large"
+        },
+        {
+          "id": "word-cloud-chart",
+          "title": "Buzzwords",
+          "title_icon": "message-circle",
+          "description": "Keywords that broke through in today's coverage",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "id": "trending-now",
+      "badge": "TRENDING NOW",
+      "badge_icon": "flame",
+      "title": "This Week's Breakout Stories",
+      "subtitle": "Stories exploding this week vs last week",
+      "charts": [
+        {
+          "id": "topic-surge-chart",
+          "title": "Changes in the News",
+          "title_icon": "arrow-up",
+          "description": "Some topics are getting 500% more coverage - see what everyone's suddenly obsessed with",
+          "size": "wide",
+          "height": "450px"
+        },
+        {
+          "id": "sentiment-war-chart",
+          "title": "Good News vs Bad News: UK vs US",
+          "title_icon": "globe",
+          "description": "Same news, different moods - which country is feeling better today?",
+          "size": "large"
+        },
+        {
+          "id": "sentiment-tracker-chart",
+          "title": "Are the News Getting Better?",
+          "title_icon": "activity",
+          "description": "Track if the world is getting more positive or negative over time",
+          "size": "large",
+          "height": "350px"
+        },
+        {
+          "id": "cross-source-stories-chart",
+          "title": "Top News",
+          "title_icon": "users",
+          "description": "When 4+ outlets cover the same story, you know it's big news",
+          "size": "wide",
+          "height": "450px"
+        }
+      ]
+    },
+    {
+      "id": "deep-dive",
+      "badge": "DEEP DIVE",
+      "badge_icon": "search",
+      "title": "Catch the Patterns",
+      "subtitle": "See what the media doesn't want you to notice",
+      "charts": [
+        {
+          "id": "urgency-heatmap-chart",
+          "title": "How the News Affects You",
+          "title_icon": "alert-circle",
+          "description": "Urgent vs important - see what you should actually care about today",
+          "size": "large"
+        },
+        {
+          "id": "topic-timeline-chart",
+          "title": "Topics and Time",
+          "title_icon": "clock",
+          "description": "Politics at 9AM, tech at 4PM - they know exactly when to grab your attention",
+          "size": "large",
+          "height": "500px"
+        },
+        {
+          "id": "publishing-rhythm-chart",
+          "title": "Time with Most News",
+          "title_icon": "bar-chart-2",
+          "description": "Peak activity at 4PM - that's when they flood your feed",
+          "size": "wide",
+          "height": "450px"
+        }
+      ]
+    },
+    {
+      "id": "source-analysis",
+      "badge": "SOURCE ANALYSIS",
+      "badge_icon": "file-text",
+      "title": "Spot the Outlet Patterns",
+      "subtitle": "See which outlets spin stories, who never sleeps, and who's most negative",
+      "charts": [
+        {
+          "id": "source-productivity-chart",
+          "title": "Who's Got the Most News?",
+          "title_icon": "award",
+          "description": "The Guardian published 153 articles today - see the full leaderboard",
+          "size": "large",
+          "height": "450px"
+        },
+        {
+          "id": "outlet-sentiment-chart",
+          "title": "Who's Got Good News?",
+          "title_icon": "smile",
+          "description": "Some outlets love doom & gloom - others keep it positive. The data proves it",
+          "size": "large",
+          "height": "450px"
+        },
+        {
+          "id": "source-bias-matrix-chart",
+          "title": "Who Covers What",
+          "title_icon": "grid",
+          "description": "BBC focuses on international news, Telegraph loves money stories - see who covers what",
+          "size": "wide",
+          "height": "450px"
+        }
+      ]
+    },
+    {
+      "id": "interactive-tools",
+      "badge": "INTERACTIVE TOOLS",
+      "badge_icon": "sliders",
+      "title": "Follow the Money Trend",
+      "subtitle": "Track how much coverage is hitting your bank account",
+      "charts": [
+        {
+          "id": "money-impact-trend-chart",
+          "title": "Money Coverage Trend (7 Days)",
+          "title_icon": "trending-up",
+          "description": "Shows the percentage of daily coverage focused on money stories.",
+          "size": "wide",
+          "height": "360px"
+        }
+      ]
+    }
+  ]
+}

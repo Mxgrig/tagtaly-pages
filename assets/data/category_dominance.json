@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-24",
+  "dominant_category": "Tech",
+  "categories": [
+    {
+      "name": "Tech",
+      "count": 173
+    },
+    {
+      "name": "Other",
+      "count": 103
+    },
+    {
+      "name": "International",
+      "count": 15
+    },
+    {
+      "name": "Cost of Living",
+      "count": 12
+    },
+    {
+      "name": "Corporate Drama",
+      "count": 11
+    }
+  ]
+}

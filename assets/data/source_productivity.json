@@ -1,0 +1,65 @@
+{
+  "top_sources": [
+    {
+      "rank": 1,
+      "source": "Guardian",
+      "count": 49,
+      "percentage": 28.5
+    },
+    {
+      "rank": 2,
+      "source": "BBC",
+      "count": 29,
+      "percentage": 16.9
+    },
+    {
+      "rank": 3,
+      "source": "Fox News",
+      "count": 25,
+      "percentage": 14.5
+    },
+    {
+      "rank": 4,
+      "source": "US Magazine",
+      "count": 19,
+      "percentage": 11.0
+    },
+    {
+      "rank": 5,
+      "source": "NY Times",
+      "count": 17,
+      "percentage": 9.9
+    },
+    {
+      "rank": 6,
+      "source": "Sky News",
+      "count": 8,
+      "percentage": 4.7
+    },
+    {
+      "rank": 7,
+      "source": "E! News",
+      "count": 8,
+      "percentage": 4.7
+    },
+    {
+      "rank": 8,
+      "source": "Independent",
+      "count": 7,
+      "percentage": 4.1
+    },
+    {
+      "rank": 9,
+      "source": "NPR",
+      "count": 3,
+      "percentage": 1.7
+    },
+    {
+      "rank": 10,
+      "source": "Guardian Life",
+      "count": 3,
+      "percentage": 1.7
+    }
+  ],
+  "total_sources": 13
+}
