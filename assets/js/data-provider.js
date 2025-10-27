@@ -1,3 +1,4 @@
+// Rebuild: 2025-10-27T15:30Z - Expose window.dataProvider
 /**
  * Tagtaly Data Provider
  * Centralized module for loading and managing all daily-generated JSON data
