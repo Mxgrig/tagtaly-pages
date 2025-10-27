@@ -273,5 +273,6 @@ class DataProvider {
     }
 }
 
-// Create singleton instance
+// Create singleton instance and expose to window
 const dataProvider = new DataProvider();
+window.dataProvider = dataProvider;
