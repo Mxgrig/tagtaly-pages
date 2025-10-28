@@ -3,6 +3,36 @@
 
 const chartInstances = {};
 
+// ============================================
+// DUAL-CHART HOVER UTILITY
+// ============================================
+function setupDualChartHover(chartElement, chartInstance, primaryOption, alternateOption) {
+    if (!chartElement) return;
+
+    const card = chartElement.closest('.chart-card');
+    if (!card) return;
+
+    let isPrimary = true;
+    let hoverTimeout;
+
+    card.addEventListener('mouseenter', () => {
+        hoverTimeout = setTimeout(() => {
+            if (isPrimary) {
+                isPrimary = false;
+                chartInstance.setOption(alternateOption, true);
+            }
+        }, 200);
+    });
+
+    card.addEventListener('mouseleave', () => {
+        clearTimeout(hoverTimeout);
+        if (!isPrimary) {
+            isPrimary = true;
+            chartInstance.setOption(primaryOption, true);
+        }
+    });
+}
+
 // Ensure ECharts is loaded
 if (typeof echarts === 'undefined') {
     console.error('ERROR: ECharts library not loaded. Charts will not render.');
@@ -594,35 +624,7 @@ async function renderRhythmChart() {
     }
 }
 
-// ============================================
-// DUAL-CHART HOVER FUNCTIONALITY
-// ============================================
-function setupDualChartHover(chartElement, chartInstance, primaryOption, alternateOption) {
-    if (!chartElement) return;
 
-    const card = chartElement.closest('.chart-card');
-    if (!card) return;
-
-    let isPrimary = true;
-    let hoverTimeout;
-
-    card.addEventListener('mouseenter', () => {
-        hoverTimeout = setTimeout(() => {
-            if (isPrimary) {
-                isPrimary = false;
-                chartInstance.setOption(alternateOption, true);
-            }
-        }, 200);
-    });
-
-    card.addEventListener('mouseleave', () => {
-        clearTimeout(hoverTimeout);
-        if (!isPrimary) {
-            isPrimary = true;
-            chartInstance.setOption(primaryOption, true);
-        }
-    });
-}
 
 // ============================================
 // CHART 7: WORDCLOUD (Keywords)

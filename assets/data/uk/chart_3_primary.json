@@ -1,9 +1,28 @@
 {
-  "headline": "\ud83c\uddec\ud83c\udde7 4 record-breaking stories this week",
-  "type": "giant_number",
-  "chart_type": "record_primary",
-  "big_number": "NEW",
-  "record_type": "RECORD LOW",
-  "source": "Guardian",
-  "virality_score": 8
+  "headline": "\ud83c\uddec\ud83c\udde7 Climate coverage turned more negative this week",
+  "type": "diverging_bar",
+  "chart_type": "sentiment_primary",
+  "data": [
+    {
+      "topic": "Climate",
+      "value": -0.6221111111111111
+    },
+    {
+      "topic": "Corporate Drama",
+      "value": 0.027249114521841793
+    },
+    {
+      "topic": "Cost of Living",
+      "value": 0.10736028988486992
+    },
+    {
+      "topic": "Entertainment",
+      "value": -0.37100108225108225
+    },
+    {
+      "topic": "International",
+      "value": 0.039510941271777185
+    }
+  ],
+  "virality_score": 12.44222222222222
 }

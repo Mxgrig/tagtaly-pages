@@ -1,44 +1,56 @@
 {
-  "headline": "\ud83c\udf0d What Global outlets are REALLY covering this week",
-  "type": "bias_indicator",
-  "chart_type": "media_bias_alternate",
+  "headline": "\ud83c\udf0d Andrew Tate mentioned 4.1x more than Mark Zuckerberg this week",
+  "type": "ranked_list",
+  "chart_type": "people_race_alternate",
   "data": [
     {
-      "source": "BBC",
-      "focus": "Other",
-      "intensity": 1.0,
-      "bias_color": "positive"
+      "rank": 1,
+      "name": "Andrew Tate",
+      "mentions": 69,
+      "badge": "\ud83e\udd47"
     },
     {
-      "source": "E! News",
-      "focus": "Tech",
-      "intensity": 0.4,
-      "bias_color": "neutral"
+      "rank": 2,
+      "name": "Mark Zuckerberg",
+      "mentions": 17,
+      "badge": "\ud83e\udd48"
     },
     {
-      "source": "Fox News",
-      "focus": "Tech",
-      "intensity": 3.6,
-      "bias_color": "positive"
+      "rank": 3,
+      "name": "Jeff Bezos",
+      "mentions": 11,
+      "badge": "\ud83e\udd49"
     },
     {
-      "source": "Guardian",
-      "focus": "Tech",
-      "intensity": 30.3,
-      "bias_color": "positive"
+      "rank": 4,
+      "name": "Prince Harry",
+      "mentions": 7,
+      "badge": "#4"
     },
     {
-      "source": "Guardian Life",
-      "focus": "Tech",
-      "intensity": 0.6,
-      "bias_color": "positive"
+      "rank": 5,
+      "name": "King Charles",
+      "mentions": 5,
+      "badge": "#5"
     },
     {
-      "source": "Independent",
-      "focus": "Tech",
-      "intensity": 4.2,
-      "bias_color": "positive"
+      "rank": 6,
+      "name": "Elon Musk",
+      "mentions": 4,
+      "badge": "#6"
+    },
+    {
+      "rank": 7,
+      "name": "Sam Altman",
+      "mentions": 3,
+      "badge": "#7"
+    },
+    {
+      "rank": 8,
+      "name": "Larry Ellison",
+      "mentions": 1,
+      "badge": "#8"
     }
   ],
-  "virality_score": 8
+  "virality_score": 8.117647058823529
 }

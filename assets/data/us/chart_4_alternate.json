@@ -4,21 +4,15 @@
   "chart_type": "media_bias_alternate",
   "data": [
     {
-      "source": "E! News",
-      "focus": "Tech",
-      "intensity": 0.4,
-      "bias_color": "neutral"
-    },
-    {
       "source": "Fox News",
       "focus": "Tech",
-      "intensity": 3.6,
+      "intensity": 2.9,
       "bias_color": "positive"
     },
     {
       "source": "NPR",
       "focus": "Other",
-      "intensity": 1.2,
+      "intensity": 1.1,
       "bias_color": "positive"
     },
     {
@@ -38,6 +32,12 @@
       "focus": "Other",
       "intensity": 1.8,
       "bias_color": "positive"
+    },
+    {
+      "source": "NY Times Travel",
+      "focus": "Other",
+      "intensity": 0.4,
+      "bias_color": "neutral"
     }
   ],
   "virality_score": 8

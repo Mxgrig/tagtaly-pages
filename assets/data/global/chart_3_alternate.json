@@ -1,9 +1,33 @@
 {
-  "headline": "\ud83c\udf0d 4 record-breaking stories this week",
-  "type": "metric_card",
-  "chart_type": "record_alternate",
-  "number": "NEW",
-  "label": "The Guardian view on electronic implants: a new way of seein",
-  "context": "Source: Guardian",
-  "virality_score": 8
+  "headline": "\ud83c\udf0d Climate coverage turned more negative this week",
+  "type": "gauges",
+  "chart_type": "sentiment_alternate",
+  "data": [
+    {
+      "topic": "Climate",
+      "shift": -0.63325,
+      "emoji": "\ud83d\udcc9"
+    },
+    {
+      "topic": "Corporate Drama",
+      "shift": 0.16517275933942602,
+      "emoji": "\ud83d\udcc8"
+    },
+    {
+      "topic": "Cost of Living",
+      "shift": -0.002949096527466097,
+      "emoji": "\ud83d\udcc9"
+    },
+    {
+      "topic": "Entertainment",
+      "shift": 0.029482926693404632,
+      "emoji": "\ud83d\udcc8"
+    },
+    {
+      "topic": "Gun Control",
+      "shift": 0.15480864197530864,
+      "emoji": "\ud83d\udcc8"
+    }
+  ],
+  "virality_score": 12.665
 }

@@ -4,34 +4,34 @@
   "chart_type": "media_bias_primary",
   "data": [
     {
-      "source": "BBC",
-      "topic": "Other",
-      "count": 10
-    },
-    {
       "source": "Guardian",
       "topic": "Tech",
-      "count": 303
+      "count": 331
     },
     {
       "source": "Guardian Life",
       "topic": "Tech",
-      "count": 6
+      "count": 7
     },
     {
       "source": "Independent",
       "topic": "Tech",
-      "count": 42
+      "count": 53
     },
     {
       "source": "Metro Lifestyle",
       "topic": "Other",
-      "count": 48
+      "count": 53
     },
     {
       "source": "Sky News",
       "topic": "Tech",
-      "count": 11
+      "count": 12
+    },
+    {
+      "source": "Telegraph Travel",
+      "topic": "Other",
+      "count": 5
     }
   ],
   "virality_score": 8

@@ -1,16 +1,11 @@
 {
-  "headline": "\ud83c\uddec\ud83c\udde7 Lifestyle & Wellness news UP 700% this week",
+  "headline": "\ud83c\uddec\ud83c\udde7 Lifestyle & Wellness news UP 1300% this week",
   "type": "table",
   "chart_type": "surge_alert_alternate",
   "data": [
     {
-      "topic": "Brexit",
-      "change": -50.0,
-      "direction": "\u2193"
-    },
-    {
       "topic": "Climate",
-      "change": -33.33333333333333,
+      "change": 0.0,
       "direction": "\u2193"
     },
     {
@@ -25,8 +20,13 @@
     },
     {
       "topic": "Cost of Living",
-      "change": 146.15384615384613,
+      "change": 192.30769230769232,
       "direction": "\u2191"
+    },
+    {
+      "topic": "Education",
+      "change": 0.0,
+      "direction": "\u2193"
     }
   ],
   "virality_score": 20

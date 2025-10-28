@@ -3,150 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Archive of UK news charts from Tagtaly. Browse historical data visualizations.">
-    <title>Archive - Tagtaly</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Browse Tagtaly's archive of daily news intelligence reports and viral trend analysis.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Archive — Tagtaly</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WZ8F7A58yxTkbZVqhlV+3I8OIVwvY74vwQ13VaeXyq5iP6k6v1zXQvQNHZJ7Y8bD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css?v=1760960007">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>🏷️ Tagtaly</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="archive.html" class="active">Archive</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="archive-page">
-        <section class="page-header">
-            <h2>Chart Archive</h2>
-            <p>Every chart we've published, searchable and downloadable.</p>
-        </section>
-
-        <!-- Filter Controls -->
-        <section class="filters">
-            <div class="filter-group">
-                <label for="topic-filter">Topic:</label>
-                <select id="topic-filter">
-                    <option value="all">All Topics</option>
-                    <option value="politics">Politics</option>
-                    <option value="health">Health</option>
-                    <option value="economy">Economy</option>
-                    <option value="crime">Crime</option>
-                    <option value="energy">Energy</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="type-filter">Chart Type:</label>
-                <select id="type-filter">
-                    <option value="all">All Types</option>
-                    <option value="surge">Surge Alerts</option>
-                    <option value="political">Political Scorecard</option>
-                    <option value="record">Record Alerts</option>
-                    <option value="bias">Media Bias</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="date-filter">Date:</label>
-                <input type="month" id="date-filter">
-            </div>
-
-            <button class="btn btn-secondary" onclick="resetFilters()">Reset</button>
-        </section>
-
-        <!-- Archive Grid -->
-        <section class="archive-grid">
-            <div class="chart-archive-card">
-                <div class="chart-date">October 8, 2025</div>
-                <div class="chart-preview">
-                    <img src="../uk_news_charts_2025-10-08.png" alt="UK News Chart - October 8, 2025">
-                </div>
-                <div class="chart-info">
-                    <h4>UK News Dashboard</h4>
-                    <div class="chart-meta">
-                        <span class="badge">Politics</span>
-                        <span class="badge">Analytics</span>
-                    </div>
-                    <div class="chart-actions">
-                        <a href="../uk_news_charts_2025-10-08.png" download class="btn-small">Download</a>
-                        <a href="../uk_news_charts_2025-10-08.png" target="_blank" class="btn-small">View</a>
+    <div class="app-shell">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="app-header-inner">
+                <div class="brand">
+                    <img src="assets/taglogo.png" alt="Tagtaly logo" class="brand-logo">
+                    <div>
+                        <div class="brand-name">Tagtaly</div>
+                        <div class="brand-tagline">News Intelligence</div>
                     </div>
                 </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Dashboard</a></li>
+                    <li><a href="archive.html" class="nav-link active">Archive</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
             </div>
+        </header>
 
-            <!-- Placeholder cards for future charts -->
-            <div class="chart-archive-card placeholder">
-                <div class="chart-date">Coming Soon</div>
-                <div class="chart-preview chart-placeholder">
-                    <p>📊</p>
-                    <p class="placeholder-text">More charts coming daily</p>
-                </div>
-                <div class="chart-info">
-                    <h4>Next Update: Tomorrow</h4>
-                    <p class="placeholder-subtext">Pipeline runs at 7 AM UTC</p>
-                </div>
-            </div>
+        <main class="app-main">
+            <!-- HERO SECTION -->
+            <section class="hero-section">
+                <figure class="hero-image-wrapper">
+                    <img id="hero-banner" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&h=600&fit=crop" alt="Archive" loading="lazy">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                            <h1 class="hero-title">Daily Reports Archive</h1>
+                            <p class="hero-subtitle">Explore historical news intelligence reports and trending analysis from Tagtaly. Every day captures what the newsrooms are covering, how they're covering it, and what's going viral.</p>
+                        </div>
+                    </div>
+                </figure>
+            </section>
 
-            <div class="chart-archive-card placeholder">
-                <div class="chart-date">Coming Soon</div>
-                <div class="chart-preview chart-placeholder">
-                    <p>📈</p>
-                    <p class="placeholder-text">Archive grows daily</p>
-                </div>
-                <div class="chart-info">
-                    <h4>Building History</h4>
-                    <p class="placeholder-subtext">Check back for more</p>
-                </div>
-            </div>
-        </section>
+            <!-- MAGAZINE LAYOUT -->
+            <div class="article-container">
+                <div class="article-main">
+                    <!-- ARCHIVE GRID -->
+                    <section class="archive-grid" id="archive-container">
+                        <!-- Archive cards populated by JavaScript -->
+                    </section>
 
-        <!-- Stats Section -->
-        <section class="archive-stats">
-            <h3>Archive Statistics</h3>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">231</div>
-                    <div class="stat-label">Articles Analyzed</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">1</div>
-                    <div class="stat-label">Charts Published</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">News Sources</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">9</div>
-                    <div class="stat-label">Topics Tracked</div>
+                    <!-- EMPTY STATE -->
+                    <section id="empty-state" style="display:none; text-align: center; padding: 3rem 2rem;">
+                        <h2 style="color: var(--gray-700); margin-bottom: 1rem;">No Reports Available Yet</h2>
+                        <p style="color: var(--gray-700); font-size: 1.05rem;">Daily reports will be added as Tagtaly processes new news data. Check back soon!</p>
+                    </section>
                 </div>
             </div>
-        </section>
-    </main>
+        </main>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Tagtaly. News that matters. Data that shows it.</p>
-            <div class="footer-links">
-                <a href="https://twitter.com/tagtaly" target="_blank">Twitter</a>
-                <a href="https://github.com/Mxgrig/Tagtaly" target="_blank">GitHub</a>
-                <a href="about.html">About</a>
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>Tagtaly</h4>
+                        <p>Enterprise news intelligence for global newsrooms. Understand what will trend before it hits prime time.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="index.html">Dashboard</a></li>
+                            <li><a href="archive.html">Archive</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="mailto:legal@tagtaly.com">Legal</a></li>
+                            <li><a href="mailto:hello@tagtaly.com">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Tagtaly Inc. All rights reserved.</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
-    <script src="assets/js/main.js"></script>
     <script>
-        function resetFilters() {
-            document.getElementById('topic-filter').value = 'all';
-            document.getElementById('type-filter').value = 'all';
-            document.getElementById('date-filter').value = '';
+        // Load archive data from localStorage or generate mock data
+        async function loadArchive() {
+            try {
+                const container = document.getElementById('archive-container');
+                const emptyState = document.getElementById('empty-state');
+
+                // Try to load from local data first
+                let reportDates = [];
+                
+                // For now, generate mock archive dates (last 30 days)
+                const today = new Date();
+                for (let i = 0; i < 30; i++) {
+                    const date = new Date(today);
+                    date.setDate(date.getDate() - i);
+                    reportDates.push(date.toISOString().split('T')[0]);
+                }
+
+                if (reportDates.length === 0) {
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                // Generate archive cards
+                reportDates.forEach(dateStr => {
+                    const card = document.createElement('article');
+                    card.className = 'archive-card';
+                    
+                    const date = new Date(dateStr);
+                    const formattedDate = date.toLocaleDateString('en-US', { 
+                        weekday: 'short',
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                    });
+
+                    card.innerHTML = `
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=500&fit=crop" alt="Report for ${formattedDate}" class="archive-image">
+                        <div class="archive-content">
+                            <div class="archive-date">${formattedDate}</div>
+                            <h3 class="archive-title">Daily News Brief</h3>
+                            <span class="archive-badge">Report</span>
+                        </div>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+
+            } catch (err) {
+                console.error('Error loading archive:', err);
+                document.getElementById('empty-state').style.display = 'block';
+            }
+        }
+
+        // Load on page load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadArchive);
+        } else {
+            loadArchive();
         }
     </script>
 </body>

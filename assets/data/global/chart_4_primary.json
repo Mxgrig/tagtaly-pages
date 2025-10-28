@@ -1,38 +1,40 @@
 {
-  "headline": "\ud83c\udf0d What Global outlets are REALLY covering this week",
-  "type": "media_bars",
-  "chart_type": "media_bias_primary",
+  "headline": "\ud83c\udf0d Andrew Tate mentioned 4.1x more than Mark Zuckerberg this week",
+  "type": "horizontal_bar",
+  "chart_type": "people_race_primary",
   "data": [
     {
-      "source": "BBC",
-      "topic": "Other",
-      "count": 10
+      "name": "Andrew Tate",
+      "value": 69
     },
     {
-      "source": "E! News",
-      "topic": "Tech",
-      "count": 4
+      "name": "Mark Zuckerberg",
+      "value": 17
     },
     {
-      "source": "Fox News",
-      "topic": "Tech",
-      "count": 36
+      "name": "Jeff Bezos",
+      "value": 11
     },
     {
-      "source": "Guardian",
-      "topic": "Tech",
-      "count": 303
+      "name": "Prince Harry",
+      "value": 7
     },
     {
-      "source": "Guardian Life",
-      "topic": "Tech",
-      "count": 6
+      "name": "King Charles",
+      "value": 5
     },
     {
-      "source": "Independent",
-      "topic": "Tech",
-      "count": 42
+      "name": "Elon Musk",
+      "value": 4
+    },
+    {
+      "name": "Sam Altman",
+      "value": 3
+    },
+    {
+      "name": "Larry Ellison",
+      "value": 1
     }
   ],
-  "virality_score": 8
+  "virality_score": 8.117647058823529
 }

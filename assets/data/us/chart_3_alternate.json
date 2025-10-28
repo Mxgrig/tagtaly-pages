@@ -1,56 +1,33 @@
 {
-  "headline": "\ud83c\uddfa\ud83c\uddf8 Donald Trump mentioned 4.9x more than Andrew Tate this week",
-  "type": "ranked_list",
-  "chart_type": "people_race_alternate",
+  "headline": "\ud83c\uddfa\ud83c\uddf8 Labor coverage turned more negative this week",
+  "type": "gauges",
+  "chart_type": "sentiment_alternate",
   "data": [
     {
-      "rank": 1,
-      "name": "Donald Trump",
-      "mentions": 113,
-      "badge": "\ud83e\udd47"
+      "topic": "Corporate Drama",
+      "shift": 0.2409879122103387,
+      "emoji": "\ud83d\udcc8"
     },
     {
-      "rank": 2,
-      "name": "Andrew Tate",
-      "mentions": 23,
-      "badge": "\ud83e\udd48"
+      "topic": "Cost of Living",
+      "shift": -0.21247474747474748,
+      "emoji": "\ud83d\udcc9"
     },
     {
-      "rank": 3,
-      "name": "Joe Biden",
-      "mentions": 8,
-      "badge": "\ud83e\udd49"
+      "topic": "Entertainment",
+      "shift": 0.15223407544836115,
+      "emoji": "\ud83d\udcc8"
     },
     {
-      "rank": 4,
-      "name": "Mark Zuckerberg",
-      "mentions": 3,
-      "badge": "#4"
+      "topic": "Gun Control",
+      "shift": 0.15480864197530864,
+      "emoji": "\ud83d\udcc8"
     },
     {
-      "rank": 5,
-      "name": "Jeff Bezos",
-      "mentions": 3,
-      "badge": "#5"
-    },
-    {
-      "rank": 6,
-      "name": "Prince Harry",
-      "mentions": 2,
-      "badge": "#6"
-    },
-    {
-      "rank": 7,
-      "name": "Taylor Swift",
-      "mentions": 2,
-      "badge": "#7"
-    },
-    {
-      "rank": 8,
-      "name": "Elon Musk",
-      "mentions": 1,
-      "badge": "#8"
+      "topic": "Immigration",
+      "shift": -0.0826758658008658,
+      "emoji": "\ud83d\udcc9"
     }
   ],
-  "virality_score": 9.826086956521738
+  "virality_score": 10.655555555555555
 }

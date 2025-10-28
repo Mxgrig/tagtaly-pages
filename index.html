@@ -16,7 +16,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/design-system.css?v=1760960007">
+    <link rel="stylesheet" href="assets/css/enhanced-ui.css?v=1760960007">
+    <link rel="stylesheet" href="assets/css/shadcn.css?v=1760960007">
+    <link rel="stylesheet" href="assets/css/monetization.css?v=1760960007">
+    <link rel="stylesheet" href="assets/css/premium-dashboard.css?v=1760960007">
     <link rel="stylesheet" href="assets/css/style.css?v=1760960007">
+    <link rel="stylesheet" href="assets/css/tagtaly-pro.css?v=1760960007">
 
     <!-- AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx" crossorigin="anonymous"></script>
@@ -751,41 +757,42 @@
             <article class="article-main">
                 <header class="article-header">
                     <span class="article-category" data-stat="top-topic-name">Today's Top Topic</span>
-                    <h2 class="article-headline" id="article-headline">—: Breaking Down the News Cycle</h2>
+                    <h2 class="article-headline" id="page-headline">—: Breaking Down the News Cycle</h2>
                     <div class="article-meta" style="justify-content: space-between; align-items: center;">
                         <div style="display: flex; gap: 24px; align-items: center;">
                             <div class="article-meta-item">
                                 <i class="fas fa-clock"></i>
-                                <span>Updated <span data-stat="updated-time">—</span> UTC</span>
+                                <span>Updated <span data-stat="updated-time">07:15</span> UTC</span>
                             </div>
                             <div class="article-meta-item">
                                 <i class="fas fa-newspaper"></i>
-                                <span><span data-stat="total-sources">—</span> sources analyzed</span>
+                                <span><span data-stat="total-sources">20+</span> sources analyzed</span>
                             </div>
                             <div class="article-meta-item">
                                 <i class="fas fa-chart-line"></i>
-                                <span><span data-stat="total-articles">—</span> articles processed</span>
+                                <span><span data-stat="total-articles">850+</span> articles processed</span>
                             </div>
                         </div>
                         <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('page')" style="margin: 0;">🔗</button>
                     </div>
                 </header>
 
-                <div class="article-body" id="article-intro-section">
-                    <p id="pipeline-summary">
-                        Tagtaly's news intelligence pipeline analyzed <strong id="article-count">—</strong> articles from <strong id="source-count">—</strong> major news sources
-                        across the UK and US on <strong id="article-date">—</strong>. Real-time analysis includes sentiment tracking, topic classification, and virality scoring
+                <div class="article-body">
+                    <p>
+                        Tagtaly's news intelligence pipeline analyzed <strong data-stat="total-articles">850+</strong> articles from <strong data-stat="total-sources">20+</strong> major news sources
+                        across the UK and US on <span id="date-para">today</span>. Real-time analysis includes sentiment tracking, topic classification, and virality scoring
                         to help newsrooms understand what's gaining traction and why.
                     </p>
 
-                    <p id="trending-topics">
-                        Today's dominant narrative centers on <strong data-stat="top-topic-name">—</strong>,
-                        commanding <strong data-stat="top-topic-share">—</strong> of total coverage.
+                    <p>
+                        Today's dominant narrative centers on <strong data-stat="top-topic-name">the top trending topic</strong>,
+                        commanding <strong data-stat="top-topic-share" data-format="percent1">a significant share</strong> of total coverage.
                         The charts below reveal which outlets are covering this most heavily, how sentiment is shifting, and what publishing patterns emerged today.
                     </p>
 
-                    <p id="sentiment-summary">
-                        Overall sentiment analysis shows a mix of coverage—
+                    <p>
+                        Overall sentiment analysis shows <strong data-stat="positive-pct">positive</strong>,
+                        <strong data-stat="neutral-pct">neutral</strong>, and <strong data-stat="negative-pct">negative</strong> coverage distribution—
                         providing a clear picture of the editorial tone across today's most-covered stories.
                     </p>
                 </div>
@@ -793,8 +800,8 @@
                 <!-- PEXELS IMAGE IN ARTICLE -->
                 <figure class="article-image">
                     <img id="pexels-image" src="https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg" alt="News analysis visualization" loading="lazy">
-                    <figcaption class="article-image-credit" id="image-caption">
-                        Image: Real-time news intelligence. Tagtaly pipeline refreshes daily with the latest sentiment, topics, and virality scores.
+                    <figcaption class="article-image-credit">
+                        Image: Real-time news intelligence from <span id="image-date">today</span>. Tagtaly pipeline refreshes daily with the latest sentiment, topics, and virality scores.
                     </figcaption>
                 </figure>
 
@@ -848,19 +855,19 @@
                 <div class="widget-title">Quick Stats</div>
                 <div class="stat-item">
                     <span class="stat-label">UK Coverage</span>
-                    <span class="stat-value" data-stat="uk-articles">—</span>
+                    <span class="stat-value" data-stat="uk-articles">591</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-label">US Coverage</span>
-                    <span class="stat-value" data-stat="us-articles">—</span>
+                    <span class="stat-value" data-stat="us-articles">250</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-label">Sentiment</span>
-                    <span class="stat-value" data-stat="positive-pct">—</span>
+                    <span class="stat-value" data-stat="positive-pct">50%</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-label">Trend Direction</span>
-                    <span class="stat-value" id="sentiment-trend" style="color: var(--color-success);">—</span>
+                    <span class="stat-value" style="color: var(--color-success);">↑ Positive Tone</span>
                 </div>
             </div>
         </section>
@@ -870,22 +877,22 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-card-label">Total Articles</div>
-                    <div class="stat-card-value" data-stat="total-articles">—</div>
+                    <div class="stat-card-value" data-stat="total-articles">841</div>
                     <div class="stat-card-subtext">Across all analyzed sources today</div>
                 </div>
                 <div class="stat-card" style="border-left-color: var(--color-success);">
                     <div class="stat-card-label">Positive Sentiment</div>
-                    <div class="stat-card-value" data-stat="positive-pct">—</div>
+                    <div class="stat-card-value" data-stat="positive-pct">50%</div>
                     <div class="stat-card-subtext">Overall coverage tone</div>
                 </div>
                 <div class="stat-card" style="border-left-color: var(--color-warning);">
                     <div class="stat-card-label">Top Topic</div>
-                    <div class="stat-card-value" data-stat="top-topic-name" style="font-size: 20px;">—</div>
-                    <div class="stat-card-subtext"><span data-stat="top-topic-share">—</span> of coverage</div>
+                    <div class="stat-card-value" data-stat="top-topic-name" style="font-size: 20px;">General News</div>
+                    <div class="stat-card-subtext"><span data-stat="top-topic-share" data-format="percent1">52.9%</span> of coverage</div>
                 </div>
                 <div class="stat-card" style="border-left-color: #8b5cf6;">
                     <div class="stat-card-label">Active Sources</div>
-                    <div class="stat-card-value" data-stat="total-sources">—</div>
+                    <div class="stat-card-value" data-stat="total-sources">17</div>
                     <div class="stat-card-subtext">UK + US newsrooms</div>
                 </div>
             </div>
@@ -932,7 +939,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('sentiment')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="emotional-rollercoaster-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -949,7 +956,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('surges')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="surge-alert-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -969,7 +976,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('winner')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="weekly-winner-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -986,7 +993,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('mediadivide')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="media-divide-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -1006,7 +1013,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('showdown')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="sentiment-showdown-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -1023,7 +1030,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('categories')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="category-dominance-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -1060,7 +1067,7 @@
                             <button class="chart-share-btn copy" title="Copy link" onclick="copyChartLink('rhythm')">🔗</button>
                         </div>
                     </div>
-                    <div class="chart-container" style="height: 400px; position: relative;">
+                    <div class="chart-container" style="height: 400px;">
                         <div id="publishing-rhythm-chart" style="width: 100%; height: 100%;"></div>
                     </div>
                 </div>
@@ -1219,12 +1226,59 @@
     <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
-    <script src="assets/js/data-provider.js" defer></script>
-    <script src="assets/js/dynamic-updates.js" defer></script>
     <script src="assets/js/main.js" defer></script>
     <script src="assets/js/social_charts.js" defer></script>
     <script src="assets/js/articles-loader.js" defer></script>
 
+
+    <!-- Dynamic Date Updater Script -->
+    <script>
+        // Update page dates dynamically from articles.json
+        async function updatePageDates() {
+            try {
+                const response = await fetch('assets/data/articles.json', { cache: 'no-store' });
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.date) {
+                        // Format: "October 28, 2025"
+                        const dateObj = new Date(data.date + 'T00:00:00Z');
+                        const formattedDate = dateObj.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+
+                        // Update all date elements
+                        const headlineEl = document.getElementById('page-headline');
+                        if (headlineEl) {
+                            headlineEl.textContent = formattedDate + ': Breaking Down the News Cycle';
+                        }
+
+                        const dateParaEl = document.getElementById('date-para');
+                        if (dateParaEl) {
+                            dateParaEl.textContent = formattedDate;
+                        }
+
+                        const imageDateEl = document.getElementById('image-date');
+                        if (imageDateEl) {
+                            imageDateEl.textContent = formattedDate;
+                        }
+
+                        console.log('✅ Updated page dates to:', formattedDate);
+                    }
+                }
+            } catch (error) {
+                console.log('⚠️ Could not load date from articles.json, using placeholder');
+            }
+        }
+
+        // Update dates on page load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updatePageDates);
+        } else {
+            updatePageDates();
+        }
+    </script>
 
     <!-- Image Loading Script -->
     <script>

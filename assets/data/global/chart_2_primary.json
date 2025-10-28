@@ -1,28 +1,9 @@
 {
-  "headline": "\ud83c\udf0d Climate coverage turned more negative this week",
-  "type": "diverging_bar",
-  "chart_type": "sentiment_primary",
-  "data": [
-    {
-      "topic": "Brexit",
-      "value": 0.0
-    },
-    {
-      "topic": "Climate",
-      "value": -0.5998333333333333
-    },
-    {
-      "topic": "Corporate Drama",
-      "value": 0.21304987974987977
-    },
-    {
-      "topic": "Cost of Living",
-      "value": 0.013457954315321458
-    },
-    {
-      "topic": "Entertainment",
-      "value": 0.008794006238859176
-    }
-  ],
-  "virality_score": 11.996666666666666
+  "headline": "\ud83c\udf0d 13 record-breaking stories this week",
+  "type": "giant_number",
+  "chart_type": "record_primary",
+  "big_number": "NEW",
+  "record_type": "RECORD LOW",
+  "source": "Guardian",
+  "virality_score": 20
 }

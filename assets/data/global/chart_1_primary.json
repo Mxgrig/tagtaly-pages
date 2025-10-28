@@ -1,15 +1,11 @@
 {
-  "headline": "\ud83c\udf0d Lifestyle & Wellness news UP 1100% this week",
+  "headline": "\ud83c\udf0d Lifestyle & Wellness news UP 1800% this week",
   "type": "bar",
   "chart_type": "surge_alert_primary",
   "data": [
     [
-      "Brexit",
-      -50.0
-    ],
-    [
       "Climate",
-      -33.33333333333333
+      0.0
     ],
     [
       "Community & Local",
@@ -17,11 +13,15 @@
     ],
     [
       "Corporate Drama",
-      -14.814814814814813
+      -7.4074074074074066
     ],
     [
       "Cost of Living",
-      76.19047619047619
+      100.0
+    ],
+    [
+      "Education",
+      400.0
     ]
   ],
   "virality_score": 20

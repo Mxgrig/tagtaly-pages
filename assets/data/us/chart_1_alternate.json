@@ -5,27 +5,27 @@
   "data": [
     {
       "topic": "Corporate Drama",
-      "change": -23.52941176470588,
+      "change": -11.76470588235294,
       "direction": "\u2193"
     },
     {
       "topic": "Cost of Living",
-      "change": -37.5,
+      "change": -50.0,
       "direction": "\u2193"
     },
     {
       "topic": "Education",
-      "change": 0.0,
-      "direction": "\u2193"
+      "change": 300.0,
+      "direction": "\u2191"
     },
     {
       "topic": "Entertainment",
-      "change": -78.57142857142857,
+      "change": -71.42857142857143,
       "direction": "\u2193"
     },
     {
       "topic": "Food & Cooking",
-      "change": 200.0,
+      "change": 300.0,
       "direction": "\u2191"
     }
   ],

@@ -4,40 +4,40 @@
   "chart_type": "media_bias_alternate",
   "data": [
     {
-      "source": "BBC",
-      "focus": "Other",
-      "intensity": 1.0,
-      "bias_color": "positive"
-    },
-    {
       "source": "Guardian",
       "focus": "Tech",
-      "intensity": 30.3,
+      "intensity": 33.1,
       "bias_color": "positive"
     },
     {
       "source": "Guardian Life",
       "focus": "Tech",
-      "intensity": 0.6,
+      "intensity": 0.7,
       "bias_color": "positive"
     },
     {
       "source": "Independent",
       "focus": "Tech",
-      "intensity": 4.2,
+      "intensity": 5.3,
       "bias_color": "positive"
     },
     {
       "source": "Metro Lifestyle",
       "focus": "Other",
-      "intensity": 4.8,
+      "intensity": 5.3,
       "bias_color": "positive"
     },
     {
       "source": "Sky News",
       "focus": "Tech",
-      "intensity": 1.1,
+      "intensity": 1.2,
       "bias_color": "positive"
+    },
+    {
+      "source": "Telegraph Travel",
+      "focus": "Other",
+      "intensity": 0.5,
+      "bias_color": "neutral"
     }
   ],
   "virality_score": 8

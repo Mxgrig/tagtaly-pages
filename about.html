@@ -4,172 +4,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn about Tagtaly - how we turn UK news into data-driven visualizations.">
-    <title>About - Tagtaly</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>About — Tagtaly</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WZ8F7A58yxTkbZVqhlV+3I8OIVwvY74vwQ13VaeXyq5iP6k6v1zXQvQNHZJ7Y8bD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css?v=1760960007">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>🏷️ Tagtaly</h1>
+    <div class="app-shell">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="app-header-inner">
+                <div class="brand">
+                    <img src="assets/taglogo.png" alt="Tagtaly logo" class="brand-logo">
+                    <div>
+                        <div class="brand-name">Tagtaly</div>
+                        <div class="brand-tagline">News Intelligence</div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Dashboard</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+                </ul>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="archive.html">Archive</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-            </ul>
-        </nav>
-    </header>
+        </header>
 
-    <main class="about-page">
-        <section class="page-header">
-            <h2>About Tagtaly</h2>
-            <p class="lead">News that matters. Data that shows it.</p>
-        </section>
+        <main class="app-main">
+            <!-- HERO SECTION -->
+            <section class="hero-section">
+                <figure class="hero-image-wrapper">
+                    <img id="hero-banner" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1600&h=600&fit=crop" alt="About Tagtaly" loading="lazy">
+                    <div class="hero-overlay">
+                        <div class="hero-content">
+                            <h1 class="hero-title">About Tagtaly</h1>
+                            <p class="hero-subtitle">News that matters. Data that shows it. We turn the daily news cycle into visual intelligence for newsrooms.</p>
+                        </div>
+                    </div>
+                </figure>
+            </section>
 
-        <!-- What Is Tagtaly -->
-        <section class="content-section">
-            <h3>What Is Tagtaly?</h3>
-            <p>Tagtaly is an automated news analysis system that transforms the chaos of daily UK news into clear, shareable data visualizations.</p>
-            <p>Every day, we:</p>
-            <ul class="styled-list">
-                <li><strong>Collect</strong> 500+ articles from major UK news sources</li>
-                <li><strong>Analyze</strong> topics, sentiment, and emerging trends</li>
-                <li><strong>Detect</strong> the most dramatic story angles using proprietary algorithms</li>
-                <li><strong>Visualize</strong> the results in 3 Instagram-ready charts</li>
-                <li><strong>Deliver</strong> them at 7 AM UTC, ready to post</li>
-            </ul>
-        </section>
+            <!-- MAGAZINE LAYOUT -->
+            <div class="article-container">
+                    <!-- MAIN CONTENT -->
+                    <div class="article-main">
+                        <!-- What is Tagtaly -->
+                        <section class="article-section">
+                            <h2>What Is Tagtaly?</h2>
+                            <p>Every day, 500+ UK news articles flood newsrooms. Editors scramble to understand what's trending, what readers care about, and what competitors are covering. Tagtaly solves this by transforming raw news volume into clear, actionable intelligence—automatically, every morning at 7 AM.</p>
+                            <p>We collect headlines, analyze them for topics and sentiment, detect viral angles, and package it all into shareable visualizations. No manual work. No delays. Just data-driven news intelligence delivered daily.</p>
+                        </section>
 
-        <!-- How It Works -->
-        <section class="content-section">
-            <h3>How It Works</h3>
+                        <!-- How It Works -->
+                        <section class="article-section">
+                            <h2>How It Works</h2>
+                            <p>Our pipeline runs in four steps, each designed to surface what matters most in UK news.</p>
 
-            <div class="methodology">
-                <div class="method-step">
-                    <h4>1. Data Collection</h4>
-                    <p><strong>Sources:</strong> BBC, Guardian, Sky News, Independent</p>
-                    <p><strong>Volume:</strong> 200-500 articles daily</p>
-                    <p><strong>Method:</strong> RSS feed aggregation with deduplication</p>
-                </div>
+                            <div class="highlight-box">
+                                <h3>Step 1: Data Collection</h3>
+                                <p>We aggregate 500+ articles daily from BBC, Guardian, Sky News, and The Independent using RSS feeds. Each article is deduplicated and stored in our database.</p>
+                                <ul>
+                                    <li>Sources: 4 major UK news outlets</li>
+                                    <li>Volume: 500+ articles daily</li>
+                                    <li>Method: RSS feed aggregation with MD5 deduplication</li>
+                                </ul>
+                            </div>
 
-                <div class="method-step">
-                    <h4>2. Analysis</h4>
-                    <p><strong>Topic Classification:</strong> 9 categories (Politics, Health, Economy, Crime, Energy, etc.)</p>
-                    <p><strong>Sentiment Analysis:</strong> Positive, neutral, or negative using TextBlob NLP</p>
-                    <p><strong>Trend Detection:</strong> Week-over-week comparisons and pattern recognition</p>
-                </div>
+                            <div class="highlight-box">
+                                <h3>Step 2: Analysis</h3>
+                                <p>We classify each article by topic (Politics, Health, Economy, Crime, Energy, and 5 others) and analyze sentiment using TextBlob NLP. This reveals what editors are covering and how they're framing it.</p>
+                                <ul>
+                                    <li>Topics: 9 categories tracked</li>
+                                    <li>Sentiment: Positive, neutral, or negative</li>
+                                    <li>Granularity: Article-level and outlet-level analysis</li>
+                                </ul>
+                            </div>
 
-                <div class="method-step">
-                    <h4>3. Story Detection</h4>
-                    <p>We run 5 proprietary algorithms to find the most dramatic angles:</p>
-                    <ul class="styled-list">
-                        <li><strong>Surge Detection:</strong> Topics exploding week-over-week</li>
-                        <li><strong>Political Scorecard:</strong> Who's dominating headlines</li>
-                        <li><strong>Record Alerts:</strong> Highest/lowest ever mentions</li>
-                        <li><strong>Sentiment Shifts:</strong> Mood changes by topic</li>
-                        <li><strong>Media Bias:</strong> What each outlet covers</li>
-                    </ul>
-                </div>
+                            <div class="highlight-box">
+                                <h3>Step 3: Story Detection</h3>
+                                <p>We run 5 proprietary algorithms to find the most dramatic news angles—the stories that tell the real story of what's happening.</p>
+                                <ul>
+                                    <li><strong>Surge Detection:</strong> Topics exploding week-over-week</li>
+                                    <li><strong>Political Scorecard:</strong> Which politicians dominate headlines</li>
+                                    <li><strong>Record Alerts:</strong> Highest/lowest mentions ever</li>
+                                    <li><strong>Sentiment Shifts:</strong> Mood swings by topic</li>
+                                    <li><strong>Media Bias:</strong> What each outlet chooses to cover</li>
+                                </ul>
+                            </div>
 
-                <div class="method-step">
-                    <h4>4. Visualization</h4>
-                    <p><strong>Format:</strong> Mobile-first Instagram portrait (1080x1350px)</p>
-                    <p><strong>Style:</strong> Bold, minimal, data-focused</p>
-                    <p><strong>Output:</strong> 3 charts daily + social media captions</p>
+                            <div class="highlight-box">
+                                <h3>Step 4: Visualization</h3>
+                                <p>We design 3 charts daily—Instagram-ready, mobile-optimized, bold. Each chart tells a story about what's happening in UK news. Each is ready to post and share.</p>
+                                <ul>
+                                    <li>Format: 1080x1350px Instagram portrait</li>
+                                    <li>Design: Bold, minimal, data-focused</li>
+                                    <li>Output: 3 charts + social captions, every morning</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <!-- Data Sources -->
+                        <section class="article-section">
+                            <h2>Data Sources</h2>
+                            <p>All data comes from public RSS feeds. We cite all sources. We only use headlines and summaries—no full articles are republished.</p>
+
+                            <div class="highlight-box">
+                                <h3>BBC News</h3>
+                                <p>The UK's national broadcaster. Trusted, comprehensive coverage across politics, business, health, science, and more.</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3>The Guardian</h3>
+                                <p>Centre-left national newspaper. Known for investigative journalism and opinion-driven coverage of UK politics and international news.</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3>Sky News</h3>
+                                <p>24-hour rolling news. Focuses on breaking news, politics, and real-time updates with a more commercial angle.</p>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h3>The Independent</h3>
+                                <p>Digital-first news outlet. Emphasizes political commentary, business coverage, and culture with a centre-left perspective.</p>
+                            </div>
+                        </section>
+
+                        <!-- Technology -->
+                        <section class="article-section">
+                            <h2>Technology Stack</h2>
+                            <p>Tagtaly is built with open-source tools and runs entirely on GitHub Actions. The pipeline is transparent, reproducible, and freely available on GitHub.</p>
+
+                            <div class="highlight-box">
+                                <h3>Core Technologies</h3>
+                                <ul>
+                                    <li><strong>Python 3.10+:</strong> Core pipeline language for data processing</li>
+                                    <li><strong>SQLite:</strong> Historical data storage and article database</li>
+                                    <li><strong>pandas:</strong> Data manipulation and aggregation</li>
+                                    <li><strong>matplotlib & seaborn:</strong> Chart generation and visualization</li>
+                                    <li><strong>TextBlob:</strong> Natural language processing for sentiment analysis</li>
+                                    <li><strong>GitHub Actions:</strong> Daily automation and scheduling</li>
+                                </ul>
+                            </div>
+
+                            <p><a href="https://github.com/Mxgrig/Tagtaly" target="_blank" style="color: var(--accent); font-weight: 600;">View the source code on GitHub →</a></p>
+                        </section>
+
+                        <!-- Mission -->
+                        <section class="article-section">
+                            <div class="highlight-box" style="background: var(--gray-900); color: var(--white); border-left: none;">
+                                <h3 style="color: var(--white); margin-top: 0;">Our Mission</h3>
+                                <p style="font-size: 1.1rem; font-style: italic; color: rgba(255, 255, 255, 0.9);">"To make UK news more accessible, understandable, and shareable through data-driven storytelling."</p>
+                                <p>The news cycle is overwhelming. Every day, 500+ stories compete for attention. We believe data visualization can cut through the noise and highlight what actually matters—not just what's loudest.</p>
+                            </div>
+                        </section>
+
+                        <!-- Contact & Connect -->
+                        <section class="article-section">
+                            <h2>Get In Touch</h2>
+                            <p>Have questions? Found a bug? Want to integrate Tagtaly into your newsroom? We'd love to hear from you.</p>
+                            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+                                <a href="mailto:hello@tagtaly.com" style="padding: 0.75rem 1.5rem; background: var(--accent); color: white; border-radius: 6px; text-decoration: none; font-weight: 600;">Email us</a>
+                                <a href="https://twitter.com/tagtaly" target="_blank" style="padding: 0.75rem 1.5rem; background: var(--gray-100); color: var(--gray-900); border-radius: 6px; text-decoration: none; font-weight: 600;">Follow on Twitter</a>
+                                <a href="https://github.com/Mxgrig/Tagtaly" target="_blank" style="padding: 0.75rem 1.5rem; background: var(--gray-100); color: var(--gray-900); border-radius: 6px; text-decoration: none; font-weight: 600;">GitHub Issues</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- SIDEBAR -->
+                    <aside class="article-sidebar">
+                        <!-- Quick Stats -->
+                        <div class="sidebar-card">
+                            <div style="padding: 1.5rem;">
+                                <h3 class="sidebar-title">By The Numbers</h3>
+                                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                                    <div>
+                                        <div style="font-size: 1.75rem; font-weight: 700; color: var(--accent);">500+</div>
+                                        <div style="font-size: 0.9rem; color: var(--gray-700);">Articles tracked daily</div>
+                                    </div>
+                                    <div>
+                                        <div style="font-size: 1.75rem; font-weight: 700; color: var(--accent);">9</div>
+                                        <div style="font-size: 0.9rem; color: var(--gray-700);">Topic categories</div>
+                                    </div>
+                                    <div>
+                                        <div style="font-size: 1.75rem; font-weight: 700; color: var(--accent);">5</div>
+                                        <div style="font-size: 0.9rem; color: var(--gray-700);">Detection algorithms</div>
+                                    </div>
+                                    <div>
+                                        <div style="font-size: 1.75rem; font-weight: 700; color: var(--accent);">4</div>
+                                        <div style="font-size: 0.9rem; color: var(--gray-700);">News sources analyzed</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Features -->
+                        <div class="sidebar-card">
+                            <h3 class="sidebar-title">Key Features</h3>
+                            <div class="news-feed">
+                                <div class="news-item">
+                                    <a href="#" style="pointer-events: none;">Automated daily reports</a>
+                                    <div class="news-item-meta">7 AM UTC delivery</div>
+                                </div>
+                                <div class="news-item">
+                                    <a href="#" style="pointer-events: none;">Sentiment analysis</a>
+                                    <div class="news-item-meta">Positive, neutral, negative</div>
+                                </div>
+                                <div class="news-item">
+                                    <a href="#" style="pointer-events: none;">Trend detection</a>
+                                    <div class="news-item-meta">Week-over-week comparisons</div>
+                                </div>
+                                <div class="news-item">
+                                    <a href="#" style="pointer-events: none;">Multi-outlet analysis</a>
+                                    <div class="news-item-meta">BBC, Guardian, Sky, Independent</div>
+                                </div>
+                                <div class="news-item">
+                                    <a href="#" style="pointer-events: none;">Shareable visualizations</a>
+                                    <div class="news-item-meta">Instagram-ready charts</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA -->
+                        <div class="cta-box">
+                            <h3>Ready to integrate?</h3>
+                            <p>Get Tagtaly running in your newsroom in one week.</p>
+                            <a class="cta-link" href="mailto:ops@tagtaly.com">Contact ops@tagtaly.com</a>
+                        </div>
+                    </aside>
                 </div>
             </div>
-        </section>
+        </main>
 
-        <!-- Data Sources -->
-        <section class="content-section">
-            <h3>Data Sources</h3>
-            <p>All data comes from publicly available RSS feeds:</p>
-            <div class="sources-grid">
-                <div class="source-card">
-                    <h4>BBC News</h4>
-                    <p>UK's national broadcaster</p>
+        <!-- FOOTER -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>Tagtaly</h4>
+                        <p>Enterprise news intelligence for global newsrooms. Understand what will trend before it hits prime time.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="index.html">Dashboard</a></li>
+                            <li><a href="archive.html">Archive</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="mailto:legal@tagtaly.com">Legal</a></li>
+                            <li><a href="mailto:hello@tagtaly.com">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="source-card">
-                    <h4>The Guardian</h4>
-                    <p>Centre-left national newspaper</p>
-                </div>
-                <div class="source-card">
-                    <h4>Sky News</h4>
-                    <p>24-hour news television</p>
-                </div>
-                <div class="source-card">
-                    <h4>The Independent</h4>
-                    <p>Online news publication</p>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Tagtaly Inc. All rights reserved.</p>
                 </div>
             </div>
-            <p class="disclaimer"><small>We only use headlines and summaries. We cite all sources. No full article text is stored or republished.</small></p>
-        </section>
-
-        <!-- Technology -->
-        <section class="content-section">
-            <h3>Technology</h3>
-            <p><strong>Open Source:</strong> Tagtaly is built with Python and runs on GitHub Actions.</p>
-            <div class="tech-stack">
-                <div class="tech-item">
-                    <strong>Python 3.10+</strong>
-                    <p>Core pipeline language</p>
-                </div>
-                <div class="tech-item">
-                    <strong>SQLite</strong>
-                    <p>Historical data storage</p>
-                </div>
-                <div class="tech-item">
-                    <strong>pandas</strong>
-                    <p>Data manipulation</p>
-                </div>
-                <div class="tech-item">
-                    <strong>matplotlib</strong>
-                    <p>Chart generation</p>
-                </div>
-                <div class="tech-item">
-                    <strong>TextBlob</strong>
-                    <p>Sentiment analysis</p>
-                </div>
-                <div class="tech-item">
-                    <strong>GitHub Actions</strong>
-                    <p>Daily automation</p>
-                </div>
-            </div>
-            <p><a href="https://github.com/Mxgrig/Tagtaly" target="_blank" class="btn btn-primary">View Source Code →</a></p>
-        </section>
-
-        <!-- Mission -->
-        <section class="content-section mission">
-            <h3>Our Mission</h3>
-            <blockquote>
-                <p>"To make UK news more accessible, understandable, and shareable through data-driven storytelling."</p>
-            </blockquote>
-            <p>The news cycle is overwhelming. We believe data visualization can cut through the noise and highlight what actually matters.</p>
-        </section>
-
-        <!-- Contact -->
-        <section class="content-section">
-            <h3>Get In Touch</h3>
-            <p>Questions? Suggestions? Found a bug?</p>
-            <div class="contact-links">
-                <a href="https://twitter.com/tagtaly" target="_blank" class="btn btn-secondary">Twitter @tagtaly</a>
-                <a href="https://github.com/Mxgrig/Tagtaly/issues" target="_blank" class="btn btn-secondary">GitHub Issues</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Tagtaly. News that matters. Data that shows it.</p>
-            <div class="footer-links">
-                <a href="https://twitter.com/tagtaly" target="_blank">Twitter</a>
-                <a href="https://github.com/Mxgrig/Tagtaly" target="_blank">GitHub</a>
-                <a href="about.html">About</a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/main.js"></script>
+        </footer>
+    </div>
 </body>
 </html>
